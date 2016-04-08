@@ -66,7 +66,7 @@ ul li
   width: 25em
   border-width: 0.3em
   border-style: solid
-  border-color: $accent
+  border-color: $primary
   top: 2.5em
   left: 2.5em
 
@@ -74,19 +74,26 @@ ul li
   position: absolute
   font-size: 70px
   color: $primary
-  top: -0.4em
+  top: 0.1em
   left: 6.6em
 
 .aboutText
   position: absolute
   font-size: 25px
-  top: 4.6em
-  left: 19em
+  top: 5.9em
+  left: 18.7em
   right: 2.5em
 
 /* Tablet View */
 
 @media (max-width: 1140px)
+  .headContainer
+    height: 35em
+
+  .aboutContainer
+    position: relative
+    height: 40em
+
   .greeting
     font-size: 100px
     font-family: 'Pacifico', cursive
@@ -121,9 +128,48 @@ ul li
     top: 19em
     right: 1em
 
+  .aboutCard
+    position: absolute
+    background-image: url("/img/paperbg.png")
+    width: 100%
+    height: 30em
+    border-style: solid
+    border-width: 1px
+    border-color: #e0e0e0
+
+  .headshot
+    position: relative
+    width: 15em
+    border-width: 0.9em
+    border-style: solid
+    border-color: $primary
+    top: -7.5em
+    left: 5em
+
+  .aboutHeader
+    position: absolute
+    font-size: 55px
+    color: $primary
+    top: -0.5em
+    left: 5.3em
+
+  .aboutText
+    position: absolute
+    font-size: 25px
+    top: 4.3em
+    left: 2.5em
+    right: 2.5em
+
 /* Large Phone View */
 
 @media (max-width: 725px)
+  .headContainer
+    height: 33em
+
+  .aboutContainer
+    position: relative
+    height: 40em
+
   .greeting
     font-size: 69px
     font-family: 'Pacifico', cursive
@@ -158,9 +204,48 @@ ul li
     top: 23.5em
     right: 0em
 
+  .aboutCard
+    position: absolute
+    background-image: url("/img/paperbg.png")
+    width: 100%
+    height: 30em
+    border-style: solid
+    border-width: 1px
+    border-color: #e0e0e0
+
+  .headshot
+    position: relative
+    width: 9em
+    border-width: 0.4em
+    border-style: solid
+    border-color: $primary
+    top: -3.5em
+    left: 1.5em
+
+  .aboutHeader
+    position: absolute
+    font-size: 35px
+    color: $primary
+    top: -0.3em
+    left: 4.5em
+
+  .aboutText
+    position: absolute
+    font-size: 21px
+    top: 3.5em
+    left: 1.5em
+    right: 1.5em
+
 /* Small Phone View */
 
 @media (max-width: 375px)
+  .headContainer
+    height: 30em
+
+  .aboutContainer
+    position: relative
+    height: 40em
+
   .greeting
     font-size: 53px
     font-family: 'Pacifico', cursive
@@ -194,3 +279,35 @@ ul li
     position: absolute
     top: 19.5em
     right: 0em
+
+  .aboutCard
+    position: absolute
+    background-image: url("/img/paperbg.png")
+    width: 100%
+    height: 30em
+    border-style: solid
+    border-width: 1px
+    border-color: #e0e0e0
+
+  .headshot
+    position: relative
+    width: 7em
+    border-width: 0.4em
+    border-style: solid
+    border-color: $primary
+    top: -2.5em
+    left: 1.5em
+
+  .aboutHeader
+    position: absolute
+    font-size: 28px
+    color: $primary
+    top: -0.3em
+    left: 4.5em
+
+  .aboutText
+    position: absolute
+    font-size: 18px
+    top: 3.5em
+    left: 1.5em
+    right: 1.5em
