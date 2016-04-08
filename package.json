@@ -4,7 +4,8 @@
   "description": "portfolio site for one william moody",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot"
+    "dev": "webpack-dev-server --inline --hot",
+    "commit": "webpack && git add -A && git commit -a"
   },
   "repository": {
     "type": "git",
