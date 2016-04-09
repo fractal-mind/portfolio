@@ -9,7 +9,7 @@ class Navbar extends React.Component {
             <a href="#" className="brand-logo"></a>
             <ul id="nav-mobile" className="right">
               <li><a href="#aboutme"><i className="material-icons">person</i></a></li>
-              <li><a href="#"><i className="material-icons">lightbulb_outline</i></a></li>
+              <li><a href="#skills"><i className="material-icons">lightbulb_outline</i></a></li>
               <li><a href="#"><i className="material-icons">perm_media</i></a></li>
               <li><a href="#"><i className="material-icons">email</i></a></li>
             </ul>

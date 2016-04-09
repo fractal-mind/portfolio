@@ -60,7 +60,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(164);
+	__webpack_require__(166);
 
 	_reactDom2.default.render(_react2.default.createElement(_Layout2.default, null), document.getElementById('app'));
 
@@ -19701,6 +19701,10 @@
 
 	var _Navlink2 = _interopRequireDefault(_Navlink);
 
+	var _Skills = __webpack_require__(164);
+
+	var _Skills2 = _interopRequireDefault(_Skills);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -19721,13 +19725,87 @@
 	  _createClass(Layout, [{
 	    key: 'render',
 	    value: function render() {
+	      var skillList = [{
+	        key: 1,
+	        name: "Javascript ES6",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/js.jpg' }),
+	        info: "Language"
+	      }, {
+	        key: 2,
+	        name: "HTML5",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/html5.png' }),
+	        info: "Language"
+	      }, {
+	        key: 3,
+	        name: "CSS3",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/CSS3.png' }),
+	        info: "Language"
+	      }, {
+	        key: 9,
+	        name: "Git",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/git.png' }),
+	        info: "Version Control System"
+	      }, {
+	        key: 10,
+	        name: "Github",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/github.png' }),
+	        info: "Open-Source Community"
+	      }, {
+	        key: 4,
+	        name: "React.js",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/react-js-logo.png' }),
+	        info: "Javascript Framework"
+	      }, {
+	        key: 5,
+	        name: "Angular.js",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/angularjs.png' }),
+	        info: "Javascript Framework"
+	      }, {
+	        key: 12,
+	        name: "Sass",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/sass.png' }),
+	        info: "CSS Extension Language"
+	      }, {
+	        key: 8,
+	        name: "npm",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/npm.png' }),
+	        info: "Javascript Package Manager"
+	      }, {
+	        key: 10,
+	        name: "Webpack",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/webpack.png' }),
+	        info: "Javascript Module Bundler"
+	      }, {
+	        key: 13,
+	        name: "jQuery",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/jquery.gif' }),
+	        info: "Javascript Library"
+	      }, {
+	        key: 6,
+	        name: "Bootstrap",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/bootstrap.png' }),
+	        info: "CSS Library"
+	      }, {
+	        key: 7,
+	        name: "Materialize",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/Materialize.png' }),
+	        info: "CSS Library"
+	      }, {
+	        key: 11,
+	        name: "FTP",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/ftp.png' }),
+	        info: "File Transfer Protocol"
+	      }];
+
 	      return _react2.default.createElement(
 	        'div',
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null),
 	        _react2.default.createElement(_Greeting2.default, null),
 	        _react2.default.createElement(_Navlink2.default, { link: 'aboutme' }),
-	        _react2.default.createElement(_About2.default, null)
+	        _react2.default.createElement(_About2.default, null),
+	        _react2.default.createElement(_Navlink2.default, { link: 'skills' }),
+	        _react2.default.createElement(_Skills2.default, { list: skillList })
 	      );
 	    }
 	  }]);
@@ -19845,7 +19923,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "greeting" },
-	            "Hello there!"
+	            "Hello, there!"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -19949,7 +20027,7 @@
 	                null,
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "#" },
+	                  { href: "#skills" },
 	                  _react2.default.createElement(
 	                    "i",
 	                    { className: "material-icons" },
@@ -20044,13 +20122,133 @@
 /* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Skillcard = __webpack_require__(165);
+
+	var _Skillcard2 = _interopRequireDefault(_Skillcard);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Skills = function (_React$Component) {
+	  _inherits(Skills, _React$Component);
+
+	  function Skills() {
+	    _classCallCheck(this, Skills);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Skills).apply(this, arguments));
+	  }
+
+	  _createClass(Skills, [{
+	    key: 'render',
+	    value: function render() {
+	      var makeList = this.props.list.map(function (skill, i) {
+	        return _react2.default.createElement(_Skillcard2.default, { key: i, icon: skill.icon, name: skill.name, info: skill.info });
+	      });
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'skillContainer container' },
+	        _react2.default.createElement(
+	          'p',
+	          { className: 'skillHeader' },
+	          'Skills'
+	        ),
+	        makeList
+	      );
+	    }
+	  }]);
+
+	  return Skills;
+	}(_react2.default.Component);
+
+	exports.default = Skills;
+
+/***/ },
+/* 165 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Skillcard = function (_React$Component) {
+	  _inherits(Skillcard, _React$Component);
+
+	  function Skillcard() {
+	    _classCallCheck(this, Skillcard);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Skillcard).apply(this, arguments));
+	  }
+
+	  _createClass(Skillcard, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "skillCard z-depth-3" },
+	        this.props.icon,
+	        _react2.default.createElement(
+	          "p",
+	          { className: "skillName" },
+	          this.props.name
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          { className: "skillInfo" },
+	          this.props.info
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Skillcard;
+	}(_react2.default.Component);
+
+	exports.default = Skillcard;
+
+/***/ },
+/* 166 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(165);
+	var content = __webpack_require__(167);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(167)(content, {});
+	var update = __webpack_require__(169)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20067,21 +20265,21 @@
 	}
 
 /***/ },
-/* 165 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(166)();
+	exports = module.exports = __webpack_require__(168)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif;\n  background-image: url(\"/img/bg.png\"); }\n\nul li {\n  margin-right: 1em; }\n\n.headContainer {\n  height: 40em; }\n\n.aboutContainer {\n  position: relative;\n  height: 40em; }\n\n.greetDiv {\n  position: relative; }\n\n.greeting {\n  font-size: 120px;\n  font-family: 'Pacifico', cursive;\n  text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n  position: absolute;\n  top: -0.2em; }\n\n.subgreeting {\n  font-size: 30px;\n  position: absolute;\n  top: 7.5em;\n  left: 1em; }\n\n#githubBtn {\n  position: absolute;\n  top: 22em;\n  right: 32.8em; }\n\n#twitterBtn {\n  position: absolute;\n  top: 22em;\n  right: 23.5em; }\n\n#fccBtn {\n  position: absolute;\n  top: 22em;\n  right: 10.5em; }\n\n#liBtn {\n  position: absolute;\n  top: 22em;\n  right: 1em; }\n\n.aboutCard {\n  position: absolute;\n  background-color: #eeeeee;\n  width: 100%;\n  height: 30em;\n  border-radius: 3px; }\n\n.headshot {\n  position: relative;\n  width: 25em;\n  border-width: 0.3em;\n  border-style: solid;\n  border-color: #3949ab;\n  top: 2.5em;\n  left: 2.5em; }\n\n.aboutHeader {\n  position: absolute;\n  font-size: 45px;\n  color: #3949ab;\n  top: 1.2em;\n  left: 10.3em; }\n\n.aboutText {\n  position: absolute;\n  font-size: 25px;\n  top: 5.9em;\n  left: 18.7em;\n  right: 2.5em; }\n\n@media (max-width: 1540px) {\n  .headContainer {\n    height: 35em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 100px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 23px;\n    position: absolute;\n    top: 8.5em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 32.8em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 23.5em; }\n  #fccBtn {\n    position: absolute;\n    top: 19em;\n    right: 10.5em; }\n  #liBtn {\n    position: absolute;\n    top: 19em;\n    right: 1em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 28em;\n    border-radius: 3px; }\n  .headshot {\n    position: relative;\n    width: 15em;\n    border-width: 0.3em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: 5.5em;\n    left: 2.5em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 33px;\n    color: #3949ab;\n    top: 1.3em;\n    left: 8.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 23px;\n    top: 4.6em;\n    left: 12.3em;\n    right: 2em; } }\n\n/* Large Phone View */\n@media (max-width: 1080px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-image: url(\"/img/paperbg.png\");\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 11em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 30px;\n    color: #3949ab;\n    top: 1em;\n    left: 6.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 6em;\n    left: 3em;\n    right: 2em; } }\n\n@media (max-width: 730px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-image: url(\"/img/paperbg.png\");\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 9em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 23px;\n    color: #3949ab;\n    top: 0.7em;\n    left: 7.3em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 4em;\n    left: 3em;\n    right: 2em; } }\n\n/* Small Phone View */\n@media (max-width: 550px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-image: url(\"/img/paperbg.png\");\n    width: 100%;\n    height: 12em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 6em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -2.5em;\n    left: 2em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 17px;\n    color: #3949ab;\n    top: 0.3em;\n    left: 7em; }\n  .aboutText {\n    position: absolute;\n    font-size: 13px;\n    top: 3em;\n    left: 2.5em;\n    right: 4em; } }\n\n@media (max-width: 400px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-image: url(\"/img/paperbg.png\");\n    width: 100%;\n    height: 10em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 4em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -1.5em;\n    left: 1em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 14px;\n    color: #3949ab;\n    top: 0em;\n    left: 5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 11px;\n    top: 2.5em;\n    left: 2em;\n    right: 0.8em; } }\n", ""]);
+	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif;\n  background-image: url(\"/img/bg.png\"); }\n\nul li {\n  margin-right: 1em; }\n\n.headContainer {\n  height: 40em; }\n\n.aboutContainer {\n  position: relative;\n  height: 40em; }\n\n.greetDiv {\n  position: relative; }\n\n.greeting {\n  font-size: 120px;\n  font-family: 'Pacifico', cursive;\n  text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n  position: absolute;\n  top: -0.2em; }\n\n.subgreeting {\n  font-size: 30px;\n  position: absolute;\n  top: 7.5em;\n  left: 1em; }\n\n#githubBtn {\n  position: absolute;\n  top: 22em;\n  right: 32.8em; }\n\n#twitterBtn {\n  position: absolute;\n  top: 22em;\n  right: 23.5em; }\n\n#fccBtn {\n  position: absolute;\n  top: 22em;\n  right: 10.5em; }\n\n#liBtn {\n  position: absolute;\n  top: 22em;\n  right: 1em; }\n\n.aboutCard {\n  position: absolute;\n  background-color: #eeeeee;\n  width: 100%;\n  height: 30em;\n  border-radius: 3px; }\n\n.headshot {\n  position: relative;\n  width: 25em;\n  border-width: 0.3em;\n  border-style: solid;\n  border-color: #3949ab;\n  top: 2.5em;\n  left: 2.5em; }\n\n.aboutHeader {\n  position: absolute;\n  font-size: 45px;\n  color: #3949ab;\n  top: 1.2em;\n  left: 10.3em; }\n\n.aboutText {\n  position: absolute;\n  font-size: 25px;\n  top: 5.9em;\n  left: 18.7em;\n  right: 2.5em; }\n\n.skillContainer {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  height: auto;\n  align-items: center; }\n\n.skillCard {\n  flex-basis: auto;\n  position: relative;\n  width: 200px;\n  height: 260px;\n  margin: 10px 10px;\n  background-color: #3949ab;\n  color: white;\n  border-radius: 5px; }\n\n.skillHeader {\n  font-size: 50px;\n  position: absolute;\n  color: #ff6d00;\n  top: 23em;\n  left: 5.4em; }\n\n.skillIcon {\n  position: absolute;\n  max-width: 160px;\n  max-height: 160px;\n  margin-top: 20px;\n  right: 20px; }\n\n.skillName {\n  position: absolute;\n  font-size: 25px;\n  margin-left: 15px;\n  top: 160px; }\n\n.skillInfo {\n  position: absolute;\n  font-size: 13px;\n  font-style: italic;\n  top: 205px;\n  margin-left: 15px; }\n\n/* High Res Laptop View */\n@media (max-width: 1540px) {\n  .headContainer {\n    height: 35em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 100px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 23px;\n    position: absolute;\n    top: 8.5em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 32.8em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 23.5em; }\n  #fccBtn {\n    position: absolute;\n    top: 19em;\n    right: 10.5em; }\n  #liBtn {\n    position: absolute;\n    top: 19em;\n    right: 1em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 28em;\n    border-radius: 3px; }\n  .headshot {\n    position: relative;\n    width: 15em;\n    border-width: 0.3em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: 5.5em;\n    left: 2.5em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 33px;\n    color: #3949ab;\n    top: 1.3em;\n    left: 8.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 23px;\n    top: 4.6em;\n    left: 12.3em;\n    right: 2em; } }\n\n/* Large Phone View */\n@media (max-width: 1080px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 11em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 30px;\n    color: #3949ab;\n    top: 1em;\n    left: 6.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 6em;\n    left: 3em;\n    right: 2em; } }\n\n@media (max-width: 730px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 23.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 9em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 23px;\n    color: #3949ab;\n    top: 0.7em;\n    left: 7.3em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 4em;\n    left: 3em;\n    right: 2em; } }\n\n/* Small Phone View */\n@media (max-width: 550px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 12em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 6em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -2.5em;\n    left: 2em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 17px;\n    color: #3949ab;\n    top: 0.3em;\n    left: 7em; }\n  .aboutText {\n    position: absolute;\n    font-size: 13px;\n    top: 3em;\n    left: 2.5em;\n    right: 4em; } }\n\n@media (max-width: 400px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 40em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 19.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 10em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 4em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -1.5em;\n    left: 1em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 14px;\n    color: #3949ab;\n    top: 0em;\n    left: 5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 11px;\n    top: 2.5em;\n    left: 2em;\n    right: 0.8em; } }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 166 */
+/* 168 */
 /***/ function(module, exports) {
 
 	/*
@@ -20137,7 +20335,7 @@
 
 
 /***/ },
-/* 167 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
