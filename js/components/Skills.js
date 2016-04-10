@@ -6,7 +6,7 @@ class Skills extends React.Component {
   render(){
     const makeList = this.props.list.map(function(skill, i){
       return(
-      <Skillcard key={i} icon={skill.icon} name={skill.name} info={skill.info} />
+      <Skillcard key={i} icon={skill.icon} name={skill.name} info={skill.info} soft={skill.soft}/>
       );
     })
     return(

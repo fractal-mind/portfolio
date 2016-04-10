@@ -95,6 +95,61 @@ class Layout extends React.Component {
       }
     ];
 
+    const softSkillList = [
+      {
+        key: 1,
+        name: "Design Sense"
+      },
+      {
+        key: 8,
+        name: "Communicator"
+      },
+      {
+        key: 9,
+        name: "Team Player"
+      },
+      {
+        key: 5,
+        name: "Loves to Learn"
+      },
+      {
+        key: 2,
+        name: "Friendly"
+      },
+      {
+        key: 13,
+        name: "Enthusiastic"
+      },
+      {
+        key: 3,
+        name: "Public Speaker"
+      },
+      {
+        key: 4,
+        name: "Customer Service"
+      },
+      {
+        key: 12,
+        name: "Honest"
+      },
+      {
+        key: 14,
+        name: "Empathetic"
+      },
+      {
+        key: 6,
+        name: "Courteous"
+      },
+      {
+        key: 7,
+        name: "Eloquent"
+      },
+      {
+        key: 10,
+        name: "Punctual"
+      },
+
+    ]
 
     return (
       <div>
@@ -103,7 +158,8 @@ class Layout extends React.Component {
         <Navlink link="aboutme" />
         <About />
         <Navlink link="skills" />
-        <Skills list={skillList} />
+        <Skills list={skillList} soft={false} />
+        <Skills list={softSkillList} soft={true} />
       </div>
     )
   }
