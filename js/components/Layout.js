@@ -115,7 +115,7 @@ class Layout extends React.Component {
       {
         key: 16,
         name: "Creative Thinker"
-      }
+      },
       {
         key: 2,
         name: "Friendly"
