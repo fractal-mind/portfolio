@@ -31,7 +31,7 @@ class Layout extends React.Component {
         key: 9,
         name: "Git",
         icon: <img className="skillIcon" src="../../img/logos/git.png" />,
-        info: "Version Control System"
+        info: "Version Control"
       },
       {
         key: 10,
@@ -131,6 +131,10 @@ class Layout extends React.Component {
       {
         key: 12,
         name: "Honest"
+      },
+      {
+        key: 14,
+        name: "Good at Video Games"
       },
       {
         key: 14,
