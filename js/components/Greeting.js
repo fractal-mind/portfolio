@@ -6,7 +6,7 @@ class Greeting extends React.Component {
       <div className="container headContainer">
         <div className="greetDiv">
           <p className="greeting">
-            Hello, there!
+            Hello there!
           </p>
           <p className="subgreeting">
             My name is Will, and I can build you an awesome website.

@@ -19968,7 +19968,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "greeting" },
-	            "Hello, there!"
+	            "Hello there!"
 	          ),
 	          _react2.default.createElement(
 	            "p",
