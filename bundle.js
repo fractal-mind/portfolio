@@ -60,7 +60,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(167);
+	__webpack_require__(169);
 
 	_reactDom2.default.render(_react2.default.createElement(_Layout2.default, null), document.getElementById('app'));
 
@@ -19701,9 +19701,9 @@
 
 	var _Navlink2 = _interopRequireDefault(_Navlink);
 
-	var _Skills = __webpack_require__(164);
+	var _Portfolio = __webpack_require__(164);
 
-	var _Skills2 = _interopRequireDefault(_Skills);
+	var _Portfolio2 = _interopRequireDefault(_Portfolio);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19725,122 +19725,6 @@
 	  _createClass(Layout, [{
 	    key: 'render',
 	    value: function render() {
-	      var skillList = [{
-	        key: 1,
-	        name: "Javascript ES6",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/js.jpg' }),
-	        info: "Language"
-	      }, {
-	        key: 2,
-	        name: "HTML5",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/html5.png' }),
-	        info: "Language"
-	      }, {
-	        key: 3,
-	        name: "CSS3",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/CSS3.png' }),
-	        info: "Language"
-	      }, {
-	        key: 9,
-	        name: "Git",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/git.png' }),
-	        info: "Version Control"
-	      }, {
-	        key: 10,
-	        name: "Github",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/github.png' }),
-	        info: "Open-Source Community"
-	      }, {
-	        key: 4,
-	        name: "React.js",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/react-js-logo.png' }),
-	        info: "Javascript Framework"
-	      }, {
-	        key: 5,
-	        name: "Angular.js",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/angularjs.png' }),
-	        info: "Javascript Framework"
-	      }, {
-	        key: 12,
-	        name: "Sass",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/sass.png' }),
-	        info: "CSS Extension Language"
-	      }, {
-	        key: 8,
-	        name: "npm",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/npm.png' }),
-	        info: "Javascript Package Manager"
-	      }, {
-	        key: 10,
-	        name: "Webpack",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/webpack.png' }),
-	        info: "Javascript Module Bundler"
-	      }, {
-	        key: 13,
-	        name: "jQuery",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/jquery.gif' }),
-	        info: "Javascript Library"
-	      }, {
-	        key: 6,
-	        name: "Bootstrap",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/bootstrap.png' }),
-	        info: "CSS Library"
-	      }, {
-	        key: 7,
-	        name: "Materialize",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/Materialize.png' }),
-	        info: "CSS Library"
-	      }, {
-	        key: 11,
-	        name: "FTP",
-	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/ftp.png' }),
-	        info: "File Transfer Protocol"
-	      }];
-
-	      var softSkillList = [{
-	        key: 1,
-	        name: "Design Sense"
-	      }, {
-	        key: 8,
-	        name: "Communicator"
-	      }, {
-	        key: 9,
-	        name: "Team Player"
-	      }, {
-	        key: 5,
-	        name: "Loves to Learn"
-	      }, {
-	        key: 16,
-	        name: "Creative Thinker"
-	      }, {
-	        key: 2,
-	        name: "Friendly"
-	      }, {
-	        key: 13,
-	        name: "Enthusiastic"
-	      }, {
-	        key: 3,
-	        name: "Public Speaker"
-	      }, {
-	        key: 4,
-	        name: "Cool Under Pressure"
-	      }, {
-	        key: 12,
-	        name: "Honest"
-	      }, {
-	        key: 15,
-	        name: "Empathetic"
-	      }, {
-	        key: 6,
-	        name: "Courteous"
-	      }, {
-	        key: 7,
-	        name: "Eloquent"
-	      }, {
-	        key: 10,
-	        name: "Punctual"
-	      }];
-
 	      return _react2.default.createElement(
 	        'div',
 	        null,
@@ -19848,11 +19732,7 @@
 	        _react2.default.createElement(_Greeting2.default, null),
 	        _react2.default.createElement(_Navlink2.default, { link: 'aboutme' }),
 	        _react2.default.createElement(_About2.default, null),
-	        _react2.default.createElement(_Navlink2.default, { link: 'skills' }),
-	        _react2.default.createElement(_Skills2.default, { list: skillList, soft: false }),
-	        _react2.default.createElement(_Skills2.default, { list: softSkillList, soft: true }),
-	        _react2.default.createElement(_Navlink2.default, { link: 'gallery' }),
-	        _react2.default.createElement(_Navlink2.default, { link: 'contact' })
+	        _react2.default.createElement(_Portfolio2.default, null)
 	      );
 	    }
 	  }]);
@@ -20181,11 +20061,298 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Skillcard = __webpack_require__(165);
+	var _Gallery = __webpack_require__(165);
+
+	var _Gallery2 = _interopRequireDefault(_Gallery);
+
+	var _Navlink = __webpack_require__(163);
+
+	var _Navlink2 = _interopRequireDefault(_Navlink);
+
+	var _Skills = __webpack_require__(166);
+
+	var _Skills2 = _interopRequireDefault(_Skills);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Portfolio = function (_React$Component) {
+	  _inherits(Portfolio, _React$Component);
+
+	  function Portfolio() {
+	    _classCallCheck(this, Portfolio);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Portfolio).apply(this, arguments));
+	  }
+
+	  _createClass(Portfolio, [{
+	    key: 'render',
+	    value: function render() {
+	      var skillList = [{
+	        key: 1,
+	        name: "Javascript ES6",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/js.jpg' }),
+	        info: "Language"
+	      }, {
+	        key: 2,
+	        name: "HTML5",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/html5.png' }),
+	        info: "Language"
+	      }, {
+	        key: 3,
+	        name: "CSS3",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/CSS3.png' }),
+	        info: "Language"
+	      }, {
+	        key: 9,
+	        name: "Git",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/git.png' }),
+	        info: "Version Control"
+	      }, {
+	        key: 10,
+	        name: "Github",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/github.png' }),
+	        info: "Open-Source Community"
+	      }, {
+	        key: 4,
+	        name: "React.js",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/react-js-logo.png' }),
+	        info: "Javascript Framework"
+	      }, {
+	        key: 5,
+	        name: "Angular.js",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/angularjs.png' }),
+	        info: "Javascript Framework"
+	      }, {
+	        key: 12,
+	        name: "Sass",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/sass.png' }),
+	        info: "CSS Extension Language"
+	      }, {
+	        key: 8,
+	        name: "npm",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/npm.png' }),
+	        info: "Javascript Package Manager"
+	      }, {
+	        key: 10,
+	        name: "Webpack",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/webpack.png' }),
+	        info: "Javascript Module Bundler"
+	      }, {
+	        key: 13,
+	        name: "jQuery",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/jquery.gif' }),
+	        info: "Javascript Library"
+	      }, {
+	        key: 6,
+	        name: "Bootstrap",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/bootstrap.png' }),
+	        info: "CSS Library"
+	      }, {
+	        key: 7,
+	        name: "Materialize",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/Materialize.png' }),
+	        info: "CSS Library"
+	      }, {
+	        key: 11,
+	        name: "FTP",
+	        icon: _react2.default.createElement('img', { className: 'skillIcon', src: '../../img/logos/ftp.png' }),
+	        info: "File Transfer Protocol"
+	      }];
+
+	      var softSkillList = [{
+	        key: 1,
+	        name: "Design Sense"
+	      }, {
+	        key: 8,
+	        name: "Communicator"
+	      }, {
+	        key: 9,
+	        name: "Team Player"
+	      }, {
+	        key: 5,
+	        name: "Loves to Learn"
+	      }, {
+	        key: 16,
+	        name: "Creative Thinker"
+	      }, {
+	        key: 2,
+	        name: "Friendly"
+	      }, {
+	        key: 13,
+	        name: "Enthusiastic"
+	      }, {
+	        key: 3,
+	        name: "Public Speaker"
+	      }, {
+	        key: 4,
+	        name: "Cool Under Pressure"
+	      }, {
+	        key: 12,
+	        name: "Honest"
+	      }, {
+	        key: 15,
+	        name: "Empathetic"
+	      }, {
+	        key: 6,
+	        name: "Courteous"
+	      }, {
+	        key: 7,
+	        name: "Eloquent"
+	      }, {
+	        key: 10,
+	        name: "Punctual"
+	      }];
+
+	      var galleryList = [{
+	        name: "Camper Leaderboard",
+	        url: "//codepen.io/fractalmind/full/dMXOOE",
+	        info: "A sortable list of the highest-scoring campers on the site. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Reactive Markdown",
+	        url: "//codepen.io/fractalmind/pen/yeWryN",
+	        info: "A Github Markdown previewer! This was the first page I built using the React.js framework. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Tic Tac Toe",
+	        url: "//codepen.io/fractalmind/pen/wMjNJe",
+	        info: "A nigh-unwinnable Tic Tac Toe game built with Angular.js. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Simon",
+	        url: "//codepen.io/fractalmind/pen/VeddQY",
+	        info: "A simple memory game built using jQuery. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Simple Wikipedia",
+	        url: "//codepen.io/fractalmind/pen/avqVxB",
+	        info: "A very minimal Wikipedia Search app built with Angular.js. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Twitch Stream Tracker",
+	        url: "//codepen.io/fractalmind/pen/VvaxLN",
+	        info: "A searchable Twitch Tracker of twelve specific streams, built with Angular.js. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "The Weather Today",
+	        url: "//codepen.io/fractalmind/pen/pjvLqx",
+	        info: "Uses Geolocation to automatically display the weather and an appropriate icon, and displays varying wallpapers depending on the time of day. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Minimal Pomodoro Timer",
+	        url: "//codepen.io/fractalmind/pen/wKKvgG",
+	        info: "Operates a timer for two distinct, modifiable durations, for efficient studying. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Camper News Cards",
+	        url: "//codepen.io/fractalmind/pen/rOpggg",
+	        info: "Used to poll an API for a list of news stories and display them with thumbnails. API has since been shut down, so it no longer functions. Freecodecamp Project!3",
+	        thumb: "URL"
+	      }, {
+	        name: "Minimal Calculator",
+	        url: "//codepen.io/fractalmind/pen/dYRJRM",
+	        info: "Minimal, Flat Calculator built with Angular.js! Adds, subtracts, multiplies ,divides, and clears. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Futurama Quote Generator",
+	        url: "//codepen.io/fractalmind/pen/JYPqLz",
+	        info: "On page load and upon clicking a button, displays a random Futurama quote from a small selection. Freecodecamp Project!",
+	        thumb: "URL"
+	      }, {
+	        name: "Old Portfolio Site",
+	        url: "http://codepen.io/fractalmind/pen/xwKxwG",
+	        info: "This was the very first webpage I ever made! The assignment was to build a simple portfolio site. I wanted to make this site a refinement of the previous design, to illustrate my progress. Freecodecamp Project!"
+	      }];
+
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(_Navlink2.default, { link: 'skills' }),
+	        _react2.default.createElement(_Skills2.default, { list: skillList, soft: false }),
+	        _react2.default.createElement(_Skills2.default, { list: softSkillList, soft: true }),
+	        _react2.default.createElement(_Navlink2.default, { link: 'gallery' }),
+	        _react2.default.createElement(_Gallery2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Portfolio;
+	}(_react2.default.Component);
+
+	exports.default = Portfolio;
+
+/***/ },
+/* 165 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Navlink = function (_React$Component) {
+	  _inherits(Navlink, _React$Component);
+
+	  function Navlink() {
+	    _classCallCheck(this, Navlink);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Navlink).apply(this, arguments));
+	  }
+
+	  _createClass(Navlink, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement('a', { name: this.props.link });
+	    }
+	  }]);
+
+	  return Navlink;
+	}(_react2.default.Component);
+
+	exports.default = Navlink;
+
+/***/ },
+/* 166 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Skillcard = __webpack_require__(167);
 
 	var _Skillcard2 = _interopRequireDefault(_Skillcard);
 
-	var _SkillHeader = __webpack_require__(166);
+	var _SkillHeader = __webpack_require__(168);
 
 	var _SkillHeader2 = _interopRequireDefault(_SkillHeader);
 
@@ -20228,7 +20395,7 @@
 	exports.default = Skills;
 
 /***/ },
-/* 165 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20300,7 +20467,7 @@
 	exports.default = Skillcard;
 
 /***/ },
-/* 166 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20356,16 +20523,16 @@
 	exports.default = SkillHeader;
 
 /***/ },
-/* 167 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(168);
+	var content = __webpack_require__(170);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(170)(content, {});
+	var update = __webpack_require__(172)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20382,10 +20549,10 @@
 	}
 
 /***/ },
-/* 168 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(169)();
+	exports = module.exports = __webpack_require__(171)();
 	// imports
 
 
@@ -20396,7 +20563,7 @@
 
 
 /***/ },
-/* 169 */
+/* 171 */
 /***/ function(module, exports) {
 
 	/*
@@ -20452,7 +20619,7 @@
 
 
 /***/ },
-/* 170 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
