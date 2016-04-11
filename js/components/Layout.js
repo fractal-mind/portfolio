@@ -113,6 +113,10 @@ class Layout extends React.Component {
         name: "Loves to Learn"
       },
       {
+        key: 16,
+        name: "Creative Thinker"
+      }
+      {
         key: 2,
         name: "Friendly"
       },
@@ -137,7 +141,7 @@ class Layout extends React.Component {
         name: "Good at Video Games"
       },
       {
-        key: 14,
+        key: 15,
         name: "Empathetic"
       },
       {
