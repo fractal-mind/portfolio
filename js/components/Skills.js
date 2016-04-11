@@ -1,19 +1,16 @@
 import React from 'react';
 
 import Skillcard from './Skillcard';
+import SkillHeader from './SkillHeader'
 
 class Skills extends React.Component {
   render(){
-    const makeList = this.props.list.map(function(skill, i){
-      return(
-      <Skillcard key={i} icon={skill.icon} name={skill.name} info={skill.info} soft={skill.soft}/>
-      );
-    })
+
     return(
       <div className="skillContainer container">
-      <p className="skillHeader">Skills</p>
+      <SkillHeader soft={this.props.soft} />
 
-        {makeList}
+        { this.props.list.map(skill => <Skillcard icon={skill.icon} name={skill.name} info={skill.info} soft={this.props.soft}/>) }
 
       </div>
     );

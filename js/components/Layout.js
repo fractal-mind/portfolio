@@ -126,7 +126,7 @@ class Layout extends React.Component {
       },
       {
         key: 4,
-        name: "Customer Service"
+        name: "Cool Under Pressure"
       },
       {
         key: 12,
