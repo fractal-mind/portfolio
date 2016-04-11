@@ -137,10 +137,6 @@ class Layout extends React.Component {
         name: "Honest"
       },
       {
-        key: 14,
-        name: "Good at Video Games"
-      },
-      {
         key: 15,
         name: "Empathetic"
       },
@@ -168,6 +164,8 @@ class Layout extends React.Component {
         <Navlink link="skills" />
         <Skills list={skillList} soft={false} />
         <Skills list={softSkillList} soft={true} />
+        <Navlink link="gallery" />
+        <Navlink link="contact" />
       </div>
     )
   }

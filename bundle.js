@@ -19828,9 +19828,6 @@
 	        key: 12,
 	        name: "Honest"
 	      }, {
-	        key: 14,
-	        name: "Good at Video Games"
-	      }, {
 	        key: 15,
 	        name: "Empathetic"
 	      }, {
@@ -19853,7 +19850,9 @@
 	        _react2.default.createElement(_About2.default, null),
 	        _react2.default.createElement(_Navlink2.default, { link: 'skills' }),
 	        _react2.default.createElement(_Skills2.default, { list: skillList, soft: false }),
-	        _react2.default.createElement(_Skills2.default, { list: softSkillList, soft: true })
+	        _react2.default.createElement(_Skills2.default, { list: softSkillList, soft: true }),
+	        _react2.default.createElement(_Navlink2.default, { link: 'gallery' }),
+	        _react2.default.createElement(_Navlink2.default, { link: 'contact' })
 	      );
 	    }
 	  }]);
@@ -20088,7 +20087,7 @@
 	                null,
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "#" },
+	                  { href: "#gallery" },
 	                  _react2.default.createElement(
 	                    "i",
 	                    { className: "material-icons" },
@@ -20101,7 +20100,7 @@
 	                null,
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "#" },
+	                  { href: "#contact" },
 	                  _react2.default.createElement(
 	                    "i",
 	                    { className: "material-icons" },
