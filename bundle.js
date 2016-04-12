@@ -20213,73 +20213,73 @@
 	        key: 1,
 	        name: "Leaderboard",
 	        url: "//codepen.io/fractalmind/full/dMXOOE",
-	        info: "A sortable list of the highest-scoring campers on the site. Freecodecamp Project!",
+	        info: "A sortable list of the highest-scoring campers on FreeCodeCamp.",
 	        thumb: "../../img/thumbs/leaderboard.png"
 	      }, {
 	        key: 2,
 	        name: "Reactive Markdown",
 	        url: "//codepen.io/fractalmind/full/yeWryN",
-	        info: "A Github Markdown previewer! This was the first page I built using the React.js framework. Freecodecamp Project!",
+	        info: "A Github Markdown previewer! This was the first page I built using the React.js framework.",
 	        thumb: "../../img/thumbs/markdown.png"
 	      }, {
 	        key: 3,
 	        name: "Tic Tac Toe",
 	        url: "//codepen.io/fractalmind/full/wMjNJe",
-	        info: "A nigh-unwinnable Tic Tac Toe game built with Angular.js. Freecodecamp Project!",
+	        info: "A nigh-unwinnable Tic Tac Toe game built with Angular.js.",
 	        thumb: "../../img/thumbs/ttt.png"
 	      }, {
 	        key: 4,
 	        name: "Simon",
 	        url: "//codepen.io/fractalmind/full/VeddQY",
-	        info: "A simple memory game built using jQuery. Freecodecamp Project!",
+	        info: "A simple memory game built using jQuery.",
 	        thumb: "../../img/thumbs/simon.png"
 	      }, {
 	        key: 5,
 	        name: "Simple Wikipedia",
 	        url: "//codepen.io/fractalmind/full/avqVxB",
-	        info: "A very minimal Wikipedia Search app built with Angular.js. Freecodecamp Project!",
+	        info: "A very minimal Wikipedia Search app built with Angular.js.",
 	        thumb: "../../img/thumbs/wikipedia.png"
 	      }, {
 	        key: 6,
 	        name: "Twitch Tracker",
 	        url: "//codepen.io/fractalmind/full/VvaxLN",
-	        info: "A searchable Twitch Tracker of twelve specific streams, built with Angular.js. Freecodecamp Project!",
+	        info: "A searchable Twitch Tracker of twelve specific streams, built with Angular.js.",
 	        thumb: "../../img/thumbs/twitch.png"
 	      }, {
 	        key: 7,
 	        name: "The Weather Today",
 	        url: "//codepen.io/fractalmind/full/pjvLqx",
-	        info: "Uses Geolocation to automatically display the weather and an appropriate icon, and displays varying wallpapers depending on the time of day. Freecodecamp Project!",
+	        info: "Uses Geolocation to automatically display the weather and an appropriate icon, and displays varying wallpapers depending on the time of day.",
 	        thumb: "../../img/thumbs/weather.png"
 	      }, {
 	        key: 8,
 	        name: "Pomodoro Timer",
 	        url: "//codepen.io/fractalmind/full/wKKvgG",
-	        info: "Operates a timer for two distinct, modifiable durations, for efficient studying. Freecodecamp Project!",
+	        info: "Operates a timer for two distinct, modifiable durations, for efficient studying.",
 	        thumb: "../../img/thumbs/pomodoro.png"
 	      }, {
 	        key: 9,
 	        name: "Camper News Cards",
 	        url: "//codepen.io/fractalmind/full/rOpggg",
-	        info: "Used to poll an API for a list of news stories and display them with thumbnails. API has since been shut down, so it no longer functions. Freecodecamp Project!",
+	        info: "Used to poll an API for a list of news stories and display them with thumbnails. API has since been shut down, so it no longer functions.",
 	        thumb: "../../img/thumbs/newscards.png"
 	      }, {
 	        key: 10,
 	        name: "Minimal Calculator",
 	        url: "//codepen.io/fractalmind/full/dYRJRM",
-	        info: "Minimal, Flat Calculator built with Angular.js! Adds, subtracts, multiplies ,divides, and clears. Freecodecamp Project!",
+	        info: "Minimal, Flat Calculator built with Angular.js! Adds, subtracts, multiplies ,divides, and clears.",
 	        thumb: "../../img/thumbs/calculator.png"
 	      }, {
 	        key: 11,
 	        name: "Quote Generator",
 	        url: "//codepen.io/fractalmind/full/JYPqLz",
-	        info: "On page load and upon clicking a button, displays a random Futurama quote from a small selection. Freecodecamp Project!",
+	        info: "On page load and upon clicking a button, displays a random Futurama quote from a small selection.",
 	        thumb: "../../img/thumbs/quotes.png"
 	      }, {
 	        key: 12,
 	        name: "Old Portfolio Site",
 	        url: "//codepen.io/fractalmind/full/xwKxwG",
-	        info: "This was the very first webpage I ever made! The assignment was to build a simple portfolio site. Freecodecamp Project!",
+	        info: "This was the very first webpage I ever made! The assignment was to build a simple portfolio site.",
 	        thumb: "../../img/thumbs/oldportfolio.png"
 	      }];
 
