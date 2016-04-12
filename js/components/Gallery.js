@@ -1,11 +1,15 @@
 import React from 'react';
 
-class Navlink extends React.Component {
+import GalleryCard from './GalleryCard';
+
+class Gallery extends React.Component {
   render(){
     return(
-      <a name={this.props.link}></a>
+      <div className="galleryContainer container">
+      {this.props.list.map(site => <GalleryCard key={site.key} name={site.name} url={site.url} info={site.info} thumb={site.thumb}/>)}
+     </div>
     )
   }
 }
 
-export default Navlink;
+export default Gallery;

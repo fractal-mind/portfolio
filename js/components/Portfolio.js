@@ -26,37 +26,37 @@ class Portfolio extends React.Component {
         info: "Language"
       },
       {
-        key: 9,
+        key: 4,
         name: "Git",
         icon: <img className="skillIcon" src="../../img/logos/git.png" />,
         info: "Version Control"
       },
       {
-        key: 10,
+        key: 5,
         name: "Github",
         icon: <img className="skillIcon" src="../../img/logos/github.png" />,
         info: "Open-Source Community"
       },
       {
-        key: 4,
+        key: 6,
         name: "React.js",
         icon: <img className="skillIcon" src="../../img/logos/react-js-logo.png" />,
         info: "Javascript Framework"
       },
       {
-        key: 5,
+        key: 7,
         name: "Angular.js",
         icon: <img className="skillIcon" src="../../img/logos/angularjs.png" />,
         info: "Javascript Framework"
       },
       {
-        key: 12,
+        key: 8,
         name: "Sass",
         icon: <img className="skillIcon" src="../../img/logos/sass.png" />,
         info: "CSS Extension Language"
       },
       {
-        key: 8,
+        key: 9,
         name: "npm",
         icon: <img className="skillIcon" src="../../img/logos/npm.png" />,
         info: "Javascript Package Manager"
@@ -68,25 +68,25 @@ class Portfolio extends React.Component {
         info: "Javascript Module Bundler"
       },
       {
-        key: 13,
+        key: 11,
         name: "jQuery",
         icon: <img className="skillIcon" src="../../img/logos/jquery.gif" />,
         info: "Javascript Library"
       },
       {
-        key: 6,
+        key: 12,
         name: "Bootstrap",
         icon: <img className="skillIcon" src="../../img/logos/bootstrap.png" />,
         info: "CSS Library"
       },
       {
-        key: 7,
+        key: 13,
         name: "Materialize",
         icon: <img className="skillIcon" src="../../img/logos/Materialize.png" />,
         info: "CSS Library"
       },
       {
-        key: 11,
+        key: 14,
         name: "FTP",
         icon: <img className="skillIcon" src="../../img/logos/ftp.png" />,
         info: "File Transfer Protocol"
@@ -99,55 +99,55 @@ class Portfolio extends React.Component {
         name: "Design Sense"
       },
       {
-        key: 8,
+        key: 2,
         name: "Communicator"
       },
       {
-        key: 9,
+        key: 3,
         name: "Team Player"
       },
       {
-        key: 5,
+        key: 4,
         name: "Loves to Learn"
       },
       {
-        key: 16,
+        key: 5,
         name: "Creative Thinker"
       },
       {
-        key: 2,
+        key: 6,
         name: "Friendly"
       },
       {
-        key: 13,
+        key: 7,
         name: "Enthusiastic"
       },
       {
-        key: 3,
+        key: 8,
         name: "Public Speaker"
       },
       {
-        key: 4,
+        key: 9,
         name: "Cool Under Pressure"
       },
       {
-        key: 12,
+        key: 10,
         name: "Honest"
       },
       {
-        key: 15,
+        key: 11,
         name: "Empathetic"
       },
       {
-        key: 6,
+        key: 12,
         name: "Courteous"
       },
       {
-        key: 7,
+        key: 13,
         name: "Eloquent"
       },
       {
-        key: 10,
+        key: 14,
         name: "Punctual"
       },
 
@@ -155,74 +155,86 @@ class Portfolio extends React.Component {
 
     const galleryList = [
       {
+        key: 1,
         name: "Camper Leaderboard",
         url: "//codepen.io/fractalmind/full/dMXOOE",
         info: "A sortable list of the highest-scoring campers on the site. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/leaderboard.png"
       },
       {
+        key: 2,
         name: "Reactive Markdown",
-        url: "//codepen.io/fractalmind/pen/yeWryN",
+        url: "//codepen.io/fractalmind/full/yeWryN",
         info: "A Github Markdown previewer! This was the first page I built using the React.js framework. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 3,
         name: "Tic Tac Toe",
-        url: "//codepen.io/fractalmind/pen/wMjNJe",
+        url: "//codepen.io/fractalmind/full/wMjNJe",
         info: "A nigh-unwinnable Tic Tac Toe game built with Angular.js. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 4,
         name: "Simon",
-        url: "//codepen.io/fractalmind/pen/VeddQY",
+        url: "//codepen.io/fractalmind/full/VeddQY",
         info: "A simple memory game built using jQuery. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 5,
         name: "Simple Wikipedia",
-        url: "//codepen.io/fractalmind/pen/avqVxB",
+        url: "//codepen.io/fractalmind/full/avqVxB",
         info: "A very minimal Wikipedia Search app built with Angular.js. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 6,
         name: "Twitch Stream Tracker",
-        url: "//codepen.io/fractalmind/pen/VvaxLN",
+        url: "//codepen.io/fractalmind/full/VvaxLN",
         info: "A searchable Twitch Tracker of twelve specific streams, built with Angular.js. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 7,
         name: "The Weather Today",
-        url: "//codepen.io/fractalmind/pen/pjvLqx",
+        url: "//codepen.io/fractalmind/full/pjvLqx",
         info: "Uses Geolocation to automatically display the weather and an appropriate icon, and displays varying wallpapers depending on the time of day. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 8,
         name: "Minimal Pomodoro Timer",
-        url: "//codepen.io/fractalmind/pen/wKKvgG",
+        url: "//codepen.io/fractalmind/full/wKKvgG",
         info: "Operates a timer for two distinct, modifiable durations, for efficient studying. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 9,
         name: "Camper News Cards",
-        url: "//codepen.io/fractalmind/pen/rOpggg",
+        url: "//codepen.io/fractalmind/full/rOpggg",
         info: "Used to poll an API for a list of news stories and display them with thumbnails. API has since been shut down, so it no longer functions. Freecodecamp Project!3",
         thumb: "URL"
       },
       {
+        key: 10,
         name: "Minimal Calculator",
-        url: "//codepen.io/fractalmind/pen/dYRJRM",
+        url: "//codepen.io/fractalmind/full/dYRJRM",
         info: "Minimal, Flat Calculator built with Angular.js! Adds, subtracts, multiplies ,divides, and clears. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 11,
         name: "Futurama Quote Generator",
-        url: "//codepen.io/fractalmind/pen/JYPqLz",
+        url: "//codepen.io/fractalmind/full/JYPqLz",
         info: "On page load and upon clicking a button, displays a random Futurama quote from a small selection. Freecodecamp Project!",
         thumb: "URL"
       },
       {
+        key: 12,
         name: "Old Portfolio Site",
-        url: "http://codepen.io/fractalmind/pen/xwKxwG",
+        url: "http://codepen.io/fractalmind/full/xwKxwG",
         info: "This was the very first webpage I ever made! The assignment was to build a simple portfolio site. I wanted to make this site a refinement of the previous design, to illustrate my progress. Freecodecamp Project!"
       }
     ]
@@ -233,7 +245,7 @@ class Portfolio extends React.Component {
       <Skills list={skillList} soft={false} />
       <Skills list={softSkillList} soft={true} />
       <Navlink link="gallery" />
-      <Gallery />
+      <Gallery list={galleryList} />
       </div>
 
     )
