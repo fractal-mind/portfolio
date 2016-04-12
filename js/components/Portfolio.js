@@ -166,76 +166,77 @@ class Portfolio extends React.Component {
         name: "Reactive Markdown",
         url: "//codepen.io/fractalmind/full/yeWryN",
         info: "A Github Markdown previewer! This was the first page I built using the React.js framework. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/markdown.png"
       },
       {
         key: 3,
         name: "Tic Tac Toe",
         url: "//codepen.io/fractalmind/full/wMjNJe",
         info: "A nigh-unwinnable Tic Tac Toe game built with Angular.js. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/ttt.png"
       },
       {
         key: 4,
         name: "Simon",
         url: "//codepen.io/fractalmind/full/VeddQY",
         info: "A simple memory game built using jQuery. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/simon.png"
       },
       {
         key: 5,
         name: "Simple Wikipedia",
         url: "//codepen.io/fractalmind/full/avqVxB",
         info: "A very minimal Wikipedia Search app built with Angular.js. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/wikipedia.png"
       },
       {
         key: 6,
         name: "Twitch Stream Tracker",
         url: "//codepen.io/fractalmind/full/VvaxLN",
         info: "A searchable Twitch Tracker of twelve specific streams, built with Angular.js. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/twitch.png"
       },
       {
         key: 7,
         name: "The Weather Today",
         url: "//codepen.io/fractalmind/full/pjvLqx",
         info: "Uses Geolocation to automatically display the weather and an appropriate icon, and displays varying wallpapers depending on the time of day. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/weather.png"
       },
       {
         key: 8,
         name: "Minimal Pomodoro Timer",
         url: "//codepen.io/fractalmind/full/wKKvgG",
         info: "Operates a timer for two distinct, modifiable durations, for efficient studying. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/pomodoro.png"
       },
       {
         key: 9,
         name: "Camper News Cards",
         url: "//codepen.io/fractalmind/full/rOpggg",
-        info: "Used to poll an API for a list of news stories and display them with thumbnails. API has since been shut down, so it no longer functions. Freecodecamp Project!3",
-        thumb: "URL"
+        info: "Used to poll an API for a list of news stories and display them with thumbnails. API has since been shut down, so it no longer functions. Freecodecamp Project!",
+        thumb: "../../img/thumbs/newscards.png"
       },
       {
         key: 10,
         name: "Minimal Calculator",
         url: "//codepen.io/fractalmind/full/dYRJRM",
         info: "Minimal, Flat Calculator built with Angular.js! Adds, subtracts, multiplies ,divides, and clears. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/calculator.png"
       },
       {
         key: 11,
         name: "Futurama Quote Generator",
         url: "//codepen.io/fractalmind/full/JYPqLz",
         info: "On page load and upon clicking a button, displays a random Futurama quote from a small selection. Freecodecamp Project!",
-        thumb: "URL"
+        thumb: "../../img/thumbs/quotes.png"
       },
       {
         key: 12,
         name: "Old Portfolio Site",
-        url: "http://codepen.io/fractalmind/full/xwKxwG",
-        info: "This was the very first webpage I ever made! The assignment was to build a simple portfolio site. I wanted to make this site a refinement of the previous design, to illustrate my progress. Freecodecamp Project!"
+        url: "//codepen.io/fractalmind/full/xwKxwG",
+        info: "This was the very first webpage I ever made! The assignment was to build a simple portfolio site. Freecodecamp Project!",
+        thumb: "../../img/thumbs/oldportfolio.png"
       }
     ]
 
