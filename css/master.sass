@@ -126,13 +126,6 @@ ul li
   top: 69.6em
   left: 9em
 
-.galleryHeader
-  font-size: 50px
-  position: absolute
-  color: $primary
-  top: 48em
-  left: 5.5em
-
 .skillIcon
   position: absolute
   max-width: 160px
@@ -172,9 +165,17 @@ ul li
   height: 375px
   margin: 10px
   background-color: $lightgrey
+  line-height: normal
 
 .galleryThumb
   height: 175px
+
+.galleryHeader
+  font-size: 50px
+  position: absolute
+  color: $primary
+  top: 48em
+  left: 5.5em
 
 /* High Res Laptop View */
 
@@ -318,6 +319,31 @@ ul li
     top: 220px
     margin-left: 15px
 
+  .galleryContainer
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    height: auto
+    align-items: center
+    margin-top: 175px
+
+  .card
+    max-width: 30%
+    height: 375px
+    margin: 10px
+    background-color: $lightgrey
+    line-height: normal
+
+  .galleryThumb
+    height: 175px
+
+  .galleryHeader
+    font-size: 50px
+    position: absolute
+    color: $primary
+    top: 45.5em
+    left: 5.3em
+
 @media (max-width: 1500px)
   .skillHeader
     font-size: 50px
@@ -332,6 +358,13 @@ ul li
     color: $accent
     top: 74.2em
     left: 8.5em
+
+  .galleryHeader
+    font-size: 50px
+    position: absolute
+    color: $primary
+    top: 52em
+    left: 5.3em
 
 /* Large Phone View */
 @media (max-width: 1200px)
@@ -348,6 +381,32 @@ ul li
     color: $accent
     top: 82.2em
     left: 6.7em
+
+  .galleryContainer
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    height: auto
+    align-items: center
+    margin-top: 175px
+
+  .card
+    max-width: 45%
+    height: 375px
+    margin: 10px
+    background-color: $lightgrey
+    line-height: normal
+
+  .galleryThumb
+    height: 175px
+
+  .galleryHeader
+    font-size: 50px
+    position: absolute
+    color: $primary
+    top: 57.8em
+    left: 4em
+
 
 @media (max-width: 1080px)
   .headContainer
@@ -491,6 +550,23 @@ ul li
     top: 136px
     margin-left: 14px
 
+  .card
+    max-width: 45%
+    height: 375px
+    margin: 10px
+    background-color: $lightgrey
+    line-height: normal
+
+  .galleryThumb
+    height: 175px
+
+  .galleryHeader
+    font-size: 40px
+    position: absolute
+    color: $primary
+    top: 51.3em
+    left: 4.5em
+
 @media (max-width: 992px)
   .skillHeader
     font-size: 40px
@@ -506,8 +582,14 @@ ul li
     top: 63.1em
     left: 3.8em
 
+  .galleryHeader
+    font-size: 40px
+    position: absolute
+    color: $primary
+    top: 49em
+    left: 2.5em
 
-@media (max-width: 730px)
+@media (max-width: 822px)
   .headContainer
     height: 36em
 
@@ -649,7 +731,25 @@ ul li
     top: 136px
     margin-left: 14px
 
+  .card
+    max-width: 45%
+    height: 375px
+    margin: 10px
+    background-color: $lightgrey
+    line-height: normal
+
+  .galleryThumb
+    height: 145px
+
+  .galleryHeader
+    font-size: 30px
+    position: absolute
+    color: $primary
+    top: 74.8em
+    left: 2.5em
+
 /* Small Phone View */
+
 @media (max-width: 660px)
   .skillHeader
     font-size: 30px
@@ -664,6 +764,13 @@ ul li
     color: $accent
     top: 110.8em
     left: 3.8em
+
+  .galleryHeader
+    font-size: 30px
+    position: absolute
+    color: $primary
+    top: 81.5em
+    left: 2.5em
 
 @media (max-width: 550px)
   .headContainer
@@ -807,6 +914,26 @@ ul li
     top: 92px
     margin-left: 3px
 
+  .galleryContainer
+    margin-top: 100px
+
+  .card
+    max-width: 95%
+    height: 350px
+    margin: 10px
+    background-color: $lightgrey
+    line-height: normal
+
+  .galleryThumb
+    height: 200px
+
+  .galleryHeader
+    font-size: 20px
+    position: absolute
+    color: $primary
+    top: 69.3em
+    left: 1.5em
+
 @media (max-width: 506px)
   .skillHeader
     font-size: 20px
@@ -820,6 +947,13 @@ ul li
     position: absolute
     color: $accent
     top: 60.5em
+    left: 1.5em
+
+  .galleryHeader
+    font-size: 20px
+    position: absolute
+    color: $primary
+    top: 75.6em
     left: 1.5em
 
 @media (max-width: 400px)
@@ -963,3 +1097,13 @@ ul li
     font-size: 7px
     top: 20px
     left: 60px
+
+  .card
+    max-width: 95%
+    height: 300px
+    margin: 10px
+    background-color: $lightgrey
+    line-height: normal
+
+  .galleryThumb
+    height: 150px

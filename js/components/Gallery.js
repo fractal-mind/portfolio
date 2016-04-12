@@ -6,7 +6,7 @@ class Gallery extends React.Component {
   render(){
     return(
       <div className="galleryContainer container">
-        <p className="galleryHeader">Gallery</p>
+        <p className="galleryHeader">Portfolio</p>
       {this.props.list.map(site => <GalleryCard key={site.key} name={site.name} url={site.url} info={site.info} thumb={site.thumb}/>)}
      </div>
     )

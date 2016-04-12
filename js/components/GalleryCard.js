@@ -4,7 +4,7 @@ class GalleryCard extends React.Component {
   render(){
     return(
       <div className="card z-depth-2">
-        <div className="card-image waves-effect waves-block waves-light">
+        <div className="card-image">
           <a href={this.props.url} target="_blank"><img className="galleryThumb" src={this.props.thumb} /></a>
         </div>
         <div className="card-content">

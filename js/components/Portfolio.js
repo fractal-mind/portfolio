@@ -156,7 +156,7 @@ class Portfolio extends React.Component {
     const galleryList = [
       {
         key: 1,
-        name: "Camper Leaderboard",
+        name: "Leaderboard",
         url: "//codepen.io/fractalmind/full/dMXOOE",
         info: "A sortable list of the highest-scoring campers on the site. Freecodecamp Project!",
         thumb: "../../img/thumbs/leaderboard.png"
@@ -191,7 +191,7 @@ class Portfolio extends React.Component {
       },
       {
         key: 6,
-        name: "Twitch Stream Tracker",
+        name: "Twitch Tracker",
         url: "//codepen.io/fractalmind/full/VvaxLN",
         info: "A searchable Twitch Tracker of twelve specific streams, built with Angular.js. Freecodecamp Project!",
         thumb: "../../img/thumbs/twitch.png"
@@ -205,7 +205,7 @@ class Portfolio extends React.Component {
       },
       {
         key: 8,
-        name: "Minimal Pomodoro Timer",
+        name: "Pomodoro Timer",
         url: "//codepen.io/fractalmind/full/wKKvgG",
         info: "Operates a timer for two distinct, modifiable durations, for efficient studying. Freecodecamp Project!",
         thumb: "../../img/thumbs/pomodoro.png"
@@ -226,7 +226,7 @@ class Portfolio extends React.Component {
       },
       {
         key: 11,
-        name: "Futurama Quote Generator",
+        name: "Quote Generator",
         url: "//codepen.io/fractalmind/full/JYPqLz",
         info: "On page load and upon clicking a button, displays a random Futurama quote from a small selection. Freecodecamp Project!",
         thumb: "../../img/thumbs/quotes.png"
