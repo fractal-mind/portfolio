@@ -1,13 +1,14 @@
 import React from 'react';
 
 import About from './About';
+import Contact from './Contact'
 import Greeting from './Greeting';
 import Navbar from './Navbar';
 import Navlink from './Navlink';
 import Portfolio from './Portfolio';
 
 class Layout extends React.Component {
-  render(){    
+  render(){
     return (
       <div>
         <Navbar />
@@ -15,6 +16,8 @@ class Layout extends React.Component {
         <Navlink link="aboutme" />
         <About />
         <Portfolio />
+        <Navlink link="contact" />
+        <Contact />
       </div>
     )
   }
