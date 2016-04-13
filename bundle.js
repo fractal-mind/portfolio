@@ -19879,7 +19879,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "mailto:will@stillwill.net", className: "waves-effect waves-light btn orange accent-4", target: "_top", id: "emailBottomBtn" },
+	          { href: "mailto:williamcmoody+stillwill@gmail.com", className: "waves-effect waves-light btn orange accent-4", target: "_top", id: "emailBottomBtn" },
 	          "email"
 	        ),
 	        _react2.default.createElement(
