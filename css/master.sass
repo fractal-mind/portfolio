@@ -7,6 +7,16 @@ body
   font-family: 'Roboto', sans-serif
   background-image: url("/img/bg.png")
 
+.footer-copyright
+  background-color: $primary
+  color: white
+  height: 1.5em
+
+.footerText
+  position: relative
+  margin-bottom: -11px
+  margin-top: -10px
+
 ul li
   margin-right: 1em
 
@@ -217,7 +227,7 @@ ul li
   font-size: 30px
   position: absolute
   top: 11em
-  left: 11em
+  left: 7em
 
 /* High Res Laptop View */
 
@@ -434,6 +444,11 @@ ul li
     top: 52em
     left: 5.3em
 
+  .contactContainer
+    position: relative
+    margin-top: 3em
+    height: 40em
+
   .contactGreeting
     font-size: 100px
 
@@ -441,7 +456,7 @@ ul li
     font-size: 25px
     position: absolute
     top: 11em
-    left: 11em
+    left: 7em
 
 /* Large Phone View */
 @media (max-width: 1200px)
@@ -449,27 +464,27 @@ ul li
   #githubBottomBtn
     position: absolute
     top: 17.5em
-    left: 37em
+    left: 43em
 
   #twitterBottomBtn
     position: absolute
     top: 20.5em
-    left: 37em
+    left: 43em
 
   #fccBottomBtn
     position: absolute
     top: 23.5em
-    left: 37em
+    left: 43em
 
   #liBottomBtn
     position: absolute
     top: 26.5em
-    left: 37em
+    left: 43em
 
   #emailBottomBtn
     position: absolute
     top: 14.5em
-    left: 37em
+    left: 43em
 
   .skillHeader
     font-size: 50px
@@ -493,6 +508,11 @@ ul li
     align-items: center
     margin-top: 175px
 
+  .contactContainer
+    position: relative
+    margin-top: 3em
+    height: 36em
+
   .card
     max-width: 45%
     height: 375px
@@ -512,12 +532,13 @@ ul li
 
   .contactGreeting
     font-size: 65px
+    left: 2em
 
   .contactSubgreeting
     font-size: 20px
     position: absolute
     top: 9.5em
-    left: 6em
+    left: 5.5em
 
 @media (max-width: 1080px)
   .headContainer
@@ -682,28 +703,28 @@ ul li
 
   #githubBottomBtn
     position: absolute
-    top: 15.5em
-    left: 21.5em
+    top: 16.5em
+    left: 22em
 
   #twitterBottomBtn
     position: absolute
-    top: 18.5em
-    left: 17em
+    top: 19.5em
+    left: 17.5em
 
   #fccBottomBtn
     position: absolute
-    top: 18.5em
-    left: 25.8em
+    top: 19.5em
+    left: 26.3em
 
   #liBottomBtn
     position: absolute
-    top: 21.5em
-    left: 22em
+    top: 22.5em
+    left: 22.5em
 
   #emailBottomBtn
     position: absolute
-    top: 15.5em
-    left: 14em
+    top: 16.5em
+    left: 14.5em
 
   .skillHeader
     font-size: 40px
@@ -727,13 +748,13 @@ ul li
     left: 2.5em
 
   .contactGreeting
-    font-size: 55px
+    font-size: 60px
     left: 2em
 
   .contactSubgreeting
     font-size: 20px
     position: absolute
-    top: 6.5em
+    top: 8em
     left: 7em
 
 
@@ -778,6 +799,31 @@ ul li
     position: absolute
     top: 22.2em
     right: 0em
+
+  #githubBottomBtn
+    position: absolute
+    top: 16.5em
+    left: 18em
+
+  #twitterBottomBtn
+    position: absolute
+    top: 19.5em
+    left: 13.5em
+
+  #fccBottomBtn
+    position: absolute
+    top: 19.5em
+    left: 22.3em
+
+  #liBottomBtn
+    position: absolute
+    top: 22.5em
+    left: 18.5em
+
+  #emailBottomBtn
+    position: absolute
+    top: 16.5em
+    left: 10.5em
 
   .aboutCard
     position: absolute
@@ -895,10 +941,44 @@ ul li
     color: $primary
     top: 74.8em
     left: 2.5em
+  .contactGreeting
+    font-size: 55px
+    left: 1em
+
+  .contactSubgreeting
+    font-size: 18px
+    position: absolute
+    top: 8em
+    left: 3.5em
 
 /* Small Phone View */
 
 @media (max-width: 680px)
+  #githubBottomBtn
+    position: absolute
+    top: 14.5em
+    left: 12em
+
+  #twitterBottomBtn
+    position: absolute
+    top: 17.5em
+    left: 8.5em
+
+  #fccBottomBtn
+    position: absolute
+    top: 17.5em
+    left: 17.3em
+
+  #liBottomBtn
+    position: absolute
+    top: 20.5em
+    left: 13.5em
+
+  #emailBottomBtn
+    position: absolute
+    top: 14.5em
+    left: 4.5em
+
   .skillHeader
     font-size: 30px
     position: absolute
@@ -920,11 +1000,18 @@ ul li
     top: 81.5em
     left: 2.5em
 
+  .contactContainer
+    position: relative
+    margin-top: 3em
+    height: 30em
+
   .contactGreeting
-    left: 0em
+    left: 0.8em
+    font-size: 45px
 
   .contactSubgreeting
-    font-size: 15em
+    left: 2.5em
+    font-size: 15px
 
 @media (max-width: 550px)
   .headContainer
@@ -1089,6 +1176,7 @@ ul li
     left: 1.5em
 
 @media (max-width: 506px)
+
   .skillHeader
     font-size: 20px
     position: absolute
@@ -1110,7 +1198,8 @@ ul li
     top: 75.6em
     left: 1.5em
 
-@media (max-width: 400px)
+@media (max-width: 460px)
+
   .headContainer
     height: 30em
 
@@ -1151,6 +1240,31 @@ ul li
     position: absolute
     top: 18.5em
     right: 0em
+
+  #githubBottomBtn
+    position: absolute
+    top: 10.5em
+    left: 8em
+
+  #twitterBottomBtn
+    position: absolute
+    top: 16.5em
+    left: 2.7em
+
+  #fccBottomBtn
+    position: absolute
+    top: 13.5em
+    left: 5.5em
+
+  #liBottomBtn
+    position: absolute
+    top: 16.5em
+    left: 11.5em
+
+  #emailBottomBtn
+    position: absolute
+    top: 10.5em
+    left: 0.5em
 
   .aboutCard
     position: absolute
@@ -1261,3 +1375,11 @@ ul li
 
   .galleryThumb
     height: 150px
+
+  .contactGreeting
+    left: 0em
+    font-size: 34px
+
+  .contactSubgreeting
+    left: 0.8em
+    font-size: 11px

@@ -60,7 +60,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(171);
+	__webpack_require__(172);
 
 	_reactDom2.default.render(_react2.default.createElement(_Layout2.default, null), document.getElementById('app'));
 
@@ -19693,19 +19693,23 @@
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
-	var _Greeting = __webpack_require__(162);
+	var _Footer = __webpack_require__(162);
+
+	var _Footer2 = _interopRequireDefault(_Footer);
+
+	var _Greeting = __webpack_require__(163);
 
 	var _Greeting2 = _interopRequireDefault(_Greeting);
 
-	var _Navbar = __webpack_require__(163);
+	var _Navbar = __webpack_require__(164);
 
 	var _Navbar2 = _interopRequireDefault(_Navbar);
 
-	var _Navlink = __webpack_require__(164);
+	var _Navlink = __webpack_require__(165);
 
 	var _Navlink2 = _interopRequireDefault(_Navlink);
 
-	var _Portfolio = __webpack_require__(165);
+	var _Portfolio = __webpack_require__(166);
 
 	var _Portfolio2 = _interopRequireDefault(_Portfolio);
 
@@ -19738,7 +19742,8 @@
 	        _react2.default.createElement(_About2.default, null),
 	        _react2.default.createElement(_Portfolio2.default, null),
 	        _react2.default.createElement(_Navlink2.default, { link: 'contact' }),
-	        _react2.default.createElement(_Contact2.default, null)
+	        _react2.default.createElement(_Contact2.default, null),
+	        _react2.default.createElement(_Footer2.default, null)
 	      );
 	    }
 	  }]);
@@ -19858,7 +19863,7 @@
 	        _react2.default.createElement(
 	          "p",
 	          { className: "contactSubgreeting" },
-	          "Let me know if I can make something for you!"
+	          "Please feel free to contact me by any of these methods: "
 	        ),
 	        _react2.default.createElement(
 	          "a",
@@ -19896,6 +19901,68 @@
 
 /***/ },
 /* 162 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Footer = function (_React$Component) {
+	  _inherits(Footer, _React$Component);
+
+	  function Footer() {
+	    _classCallCheck(this, Footer);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Footer).apply(this, arguments));
+	  }
+
+	  _createClass(Footer, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "footer-copyright" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "footerText" },
+	            "© 2016 Will Moody"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { className: "right footerText white-text", href: "//github.com/fractal-mind/portfolio", target: "_blank" },
+	            "View Source on Github"
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Footer;
+	}(_react2.default.Component);
+
+	exports.default = Footer;
+
+/***/ },
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19977,7 +20044,7 @@
 	exports.default = Greeting;
 
 /***/ },
-/* 163 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20090,7 +20157,7 @@
 	exports.default = Navbar;
 
 /***/ },
-/* 164 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20135,7 +20202,7 @@
 	exports.default = Navlink;
 
 /***/ },
-/* 165 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20150,15 +20217,15 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Gallery = __webpack_require__(166);
+	var _Gallery = __webpack_require__(167);
 
 	var _Gallery2 = _interopRequireDefault(_Gallery);
 
-	var _Navlink = __webpack_require__(164);
+	var _Navlink = __webpack_require__(165);
 
 	var _Navlink2 = _interopRequireDefault(_Navlink);
 
-	var _Skills = __webpack_require__(168);
+	var _Skills = __webpack_require__(169);
 
 	var _Skills2 = _interopRequireDefault(_Skills);
 
@@ -20390,7 +20457,7 @@
 	exports.default = Portfolio;
 
 /***/ },
-/* 166 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20405,7 +20472,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _GalleryCard = __webpack_require__(167);
+	var _GalleryCard = __webpack_require__(168);
 
 	var _GalleryCard2 = _interopRequireDefault(_GalleryCard);
 
@@ -20450,7 +20517,7 @@
 	exports.default = Gallery;
 
 /***/ },
-/* 167 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20521,7 +20588,7 @@
 	exports.default = GalleryCard;
 
 /***/ },
-/* 168 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20536,11 +20603,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Skillcard = __webpack_require__(169);
+	var _Skillcard = __webpack_require__(170);
 
 	var _Skillcard2 = _interopRequireDefault(_Skillcard);
 
-	var _SkillHeader = __webpack_require__(170);
+	var _SkillHeader = __webpack_require__(171);
 
 	var _SkillHeader2 = _interopRequireDefault(_SkillHeader);
 
@@ -20583,7 +20650,7 @@
 	exports.default = Skills;
 
 /***/ },
-/* 169 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20655,7 +20722,7 @@
 	exports.default = Skillcard;
 
 /***/ },
-/* 170 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20711,16 +20778,16 @@
 	exports.default = SkillHeader;
 
 /***/ },
-/* 171 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(172);
+	var content = __webpack_require__(173);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(174)(content, {});
+	var update = __webpack_require__(175)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20737,21 +20804,21 @@
 	}
 
 /***/ },
-/* 172 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(173)();
+	exports = module.exports = __webpack_require__(174)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif;\n  background-image: url(\"/img/bg.png\"); }\n\nul li {\n  margin-right: 1em; }\n\n.headContainer {\n  height: 40em; }\n\n.aboutContainer {\n  position: relative;\n  height: 37.5em; }\n\n.greetDiv {\n  position: relative; }\n\n.greeting {\n  font-size: 120px;\n  font-family: 'Pacifico', cursive;\n  text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n  position: absolute;\n  top: -0.2em; }\n\n.subgreeting {\n  font-size: 30px;\n  position: absolute;\n  top: 7.5em;\n  left: 1em; }\n\n#githubBtn {\n  position: absolute;\n  top: 22em;\n  right: 32.8em; }\n\n#twitterBtn {\n  position: absolute;\n  top: 22em;\n  right: 23.5em; }\n\n#fccBtn {\n  position: absolute;\n  top: 22em;\n  right: 10.5em; }\n\n#liBtn {\n  position: absolute;\n  top: 22em;\n  right: 1em; }\n\n#githubBottomBtn {\n  position: absolute;\n  top: 27.3em;\n  left: 64.3em; }\n\n#twitterBottomBtn {\n  position: absolute;\n  top: 30.3em;\n  left: 64.3em; }\n\n#fccBottomBtn {\n  position: absolute;\n  top: 33.3em;\n  left: 64.3em; }\n\n#liBottomBtn {\n  position: absolute;\n  top: 36.3em;\n  left: 64.3em; }\n\n#emailBottomBtn {\n  position: absolute;\n  top: 24.3em;\n  left: 64.3em; }\n\n.aboutCard {\n  position: absolute;\n  background-color: #eeeeee;\n  width: 100%;\n  height: 30em;\n  border-radius: 3px; }\n\n.headshot {\n  position: relative;\n  width: 25em;\n  border-width: 0.3em;\n  border-style: solid;\n  border-color: #3949ab;\n  top: 2.5em;\n  left: 2.5em; }\n\n.aboutHeader {\n  position: absolute;\n  font-size: 45px;\n  color: #3949ab;\n  top: 1.2em;\n  left: 10.3em; }\n\n.aboutText {\n  position: absolute;\n  font-size: 25px;\n  top: 5.9em;\n  left: 18.7em;\n  right: 2.5em; }\n\n.skillContainer {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  height: auto;\n  align-items: center;\n  margin-top: 60px; }\n\n.skillCard {\n  flex-basis: auto;\n  position: relative;\n  width: 200px;\n  height: 260px;\n  margin: 5px 5px;\n  background-color: #3949ab;\n  color: white;\n  border-radius: 5px; }\n\n.softSkillCard {\n  flex-basis: auto;\n  position: relative;\n  width: 200px;\n  height: 50px;\n  margin: 5px 5px;\n  background-color: #ff6d00;\n  color: white;\n  border-radius: 5px; }\n\n.skillHeader {\n  font-size: 50px;\n  position: absolute;\n  color: #3949ab;\n  top: 23.5em;\n  left: 5.4em; }\n\n.softSkillHeader {\n  font-size: 30px;\n  position: absolute;\n  color: #ff6d00;\n  top: 69.6em;\n  left: 9em; }\n\n.skillIcon {\n  position: absolute;\n  max-width: 160px;\n  max-height: 160px;\n  margin-top: 20px;\n  right: 20px; }\n\n.skillName {\n  position: absolute;\n  font-size: 25px;\n  margin-left: 15px;\n  top: 175px; }\n\n.softSkillName {\n  position: absolute;\n  font-size: 18px;\n  margin-left: 15px;\n  top: -6px; }\n\n.skillInfo {\n  position: absolute;\n  font-size: 13px;\n  font-style: italic;\n  top: 220px;\n  margin-left: 15px; }\n\n.galleryContainer {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  height: auto;\n  align-items: center;\n  margin-top: 175px; }\n\n.card {\n  max-width: 30%;\n  height: 375px;\n  margin: 10px;\n  background-color: #eeeeee;\n  line-height: normal; }\n\n.galleryThumb {\n  height: 175px; }\n\n.galleryHeader {\n  font-size: 50px;\n  position: absolute;\n  color: #3949ab;\n  top: 48em;\n  left: 5.5em; }\n\n.contactContainer {\n  position: relative;\n  margin-top: 3em;\n  height: 50em; }\n\n.contactGreeting {\n  font-size: 120px;\n  font-family: 'Pacifico', cursive;\n  text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n  position: absolute; }\n\n.contactSubgreeting {\n  font-size: 30px;\n  position: absolute;\n  top: 11em;\n  left: 11em; }\n\n/* High Res Laptop View */\n@media (max-width: 1540px) {\n  .headContainer {\n    height: 35em; }\n  .aboutContainer {\n    position: relative;\n    height: 34em; }\n  .greeting {\n    font-size: 100px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 23px;\n    position: absolute;\n    top: 8.5em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 32.8em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 23.5em; }\n  #fccBtn {\n    position: absolute;\n    top: 19em;\n    right: 10.5em; }\n  #liBtn {\n    position: absolute;\n    top: 19em;\n    right: 1em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 28em;\n    border-radius: 3px; }\n  .headshot {\n    position: relative;\n    width: 15em;\n    border-width: 0.3em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: 5.5em;\n    left: 2.5em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 33px;\n    color: #3949ab;\n    top: 1.3em;\n    left: 8.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 23px;\n    top: 4.6em;\n    left: 12.3em;\n    right: 2em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 60px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 200px;\n    height: 260px;\n    margin: 5px 5px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 200px;\n    height: 50px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 20.9em;\n    left: 5.4em; }\n  .softSkillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #ff6d00;\n    top: 65.3em;\n    left: 9em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 160px;\n    max-height: 160px;\n    margin-top: 20px;\n    right: 20px; }\n  .skillName {\n    position: absolute;\n    font-size: 25px;\n    margin-left: 15px;\n    top: 175px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 18px;\n    margin-left: 15px;\n    top: -6px; }\n  .skillInfo {\n    position: absolute;\n    font-size: 13px;\n    font-style: italic;\n    top: 220px;\n    margin-left: 15px; }\n  .galleryContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 175px; }\n  .card {\n    max-width: 30%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 175px; }\n  .galleryHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 45.5em;\n    left: 5.3em; } }\n\n@media (max-width: 1500px) {\n  #githubBottomBtn {\n    position: absolute;\n    top: 23em;\n    left: 54em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 26em;\n    left: 54em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 29em;\n    left: 54em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 32em;\n    left: 54em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 20em;\n    left: 54em; }\n  .skillHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 20.9em;\n    left: 5.4em; }\n  .softSkillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #ff6d00;\n    top: 74.2em;\n    left: 8.5em; }\n  .galleryHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 52em;\n    left: 5.3em; }\n  .contactGreeting {\n    font-size: 100px; }\n  .contactSubgreeting {\n    font-size: 25px;\n    position: absolute;\n    top: 11em;\n    left: 11em; } }\n\n/* Large Phone View */\n@media (max-width: 1200px) {\n  #githubBottomBtn {\n    position: absolute;\n    top: 17.5em;\n    left: 37em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 20.5em;\n    left: 37em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 23.5em;\n    left: 37em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 26.5em;\n    left: 37em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 14.5em;\n    left: 37em; }\n  .skillHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 20.2em;\n    left: 4em; }\n  .softSkillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #ff6d00;\n    top: 82.2em;\n    left: 6.7em; }\n  .galleryContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 175px; }\n  .card {\n    max-width: 45%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 175px; }\n  .galleryHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 57.8em;\n    left: 4em; }\n  .contactGreeting {\n    font-size: 65px; }\n  .contactSubgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 9.5em;\n    left: 6em; } }\n\n@media (max-width: 1080px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 27em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 11em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 30px;\n    color: #3949ab;\n    top: 1em;\n    left: 6.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 6em;\n    left: 3em;\n    right: 2em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 130px;\n    height: 190px;\n    margin: 5px 5px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 170px;\n    height: 50px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 23.3em;\n    left: 4.5em; }\n  .softSkillHeader {\n    font-size: 25px;\n    position: absolute;\n    color: #ff6d00;\n    top: 64.4em;\n    left: 7.3em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 90px;\n    max-height: 90px;\n    margin-top: 20px;\n    right: 20px; }\n  .skillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 15px;\n    top: 110px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 9px;\n    top: -2px; }\n  .skillInfo {\n    position: absolute;\n    font-size: 11px;\n    font-style: normal;\n    top: 136px;\n    margin-left: 14px; }\n  .card {\n    max-width: 45%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 175px; }\n  .galleryHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 51.3em;\n    left: 4.5em; } }\n\n@media (max-width: 992px) {\n  #githubBottomBtn {\n    position: absolute;\n    top: 15.5em;\n    left: 21.5em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 18.5em;\n    left: 17em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 18.5em;\n    left: 25.8em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 21.5em;\n    left: 22em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 15.5em;\n    left: 14em; }\n  .skillHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 22.5em;\n    left: 2.5em; }\n  .softSkillHeader {\n    font-size: 25px;\n    position: absolute;\n    color: #ff6d00;\n    top: 63.1em;\n    left: 3.8em; }\n  .galleryHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 49em;\n    left: 2.5em; }\n  .contactGreeting {\n    font-size: 55px;\n    left: 2em; }\n  .contactSubgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 6.5em;\n    left: 7em; } }\n\n@media (max-width: 822px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 27em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 9em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 23px;\n    color: #3949ab;\n    top: 0.7em;\n    left: 7.3em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 4em;\n    left: 3em;\n    right: 2em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 130px;\n    height: 190px;\n    margin: 5px 5px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 170px;\n    height: 50px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 30.7em;\n    left: 2.5em; }\n  .softSkillHeader {\n    font-size: 18px;\n    position: absolute;\n    color: #ff6d00;\n    top: 99.6em;\n    left: 3.8em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 90px;\n    max-height: 90px;\n    margin-top: 20px;\n    right: 20px; }\n  .skillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 15px;\n    top: 110px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 9px;\n    top: -2px; }\n  .skillInfo {\n    position: absolute;\n    font-size: 11px;\n    font-style: normal;\n    top: 136px;\n    margin-left: 14px; }\n  .card {\n    max-width: 45%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 145px; }\n  .galleryHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 74.8em;\n    left: 2.5em; } }\n\n/* Small Phone View */\n@media (max-width: 680px) {\n  .skillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 30.7em;\n    left: 2.5em; }\n  .softSkillHeader {\n    font-size: 18px;\n    position: absolute;\n    color: #ff6d00;\n    top: 110.8em;\n    left: 3.8em; }\n  .galleryHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 81.5em;\n    left: 2.5em; }\n  .contactGreeting {\n    left: 0em; }\n  .contactSubgreeting {\n    font-size: 15em; } }\n\n@media (max-width: 550px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 13em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 18.3em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 18.3em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 12em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 6em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -2.5em;\n    left: 2em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 17px;\n    color: #3949ab;\n    top: 0.3em;\n    left: 7em; }\n  .aboutText {\n    position: absolute;\n    font-size: 13px;\n    top: 3em;\n    left: 2.5em;\n    right: 4em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 85px;\n    height: 120px;\n    margin: 3px 3px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 110px;\n    height: 30px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 33em;\n    left: 1.5em; }\n  .softSkillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #ff6d00;\n    top: 54.2em;\n    left: 1.5em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 70px;\n    max-height: 70px;\n    margin-top: 11px;\n    right: 7px; }\n  .skillName {\n    position: absolute;\n    font-size: 12px;\n    margin-left: 2px;\n    top: 69px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 10px;\n    margin-left: 5px;\n    top: -3px; }\n  .skillInfo {\n    position: absolute;\n    font-style: normal;\n    font-size: 7px;\n    top: 92px;\n    margin-left: 3px; }\n  .galleryContainer {\n    margin-top: 100px; }\n  .card {\n    max-width: 95%;\n    height: 350px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 200px; }\n  .galleryHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 69.3em;\n    left: 1.5em; } }\n\n@media (max-width: 506px) {\n  .skillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 33em;\n    left: 1.5em; }\n  .softSkillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #ff6d00;\n    top: 60.5em;\n    left: 1.5em; }\n  .galleryHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 75.6em;\n    left: 1.5em; } }\n\n@media (max-width: 400px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 10.3em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 18.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 18.5em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 10em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 4em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -1.5em;\n    left: 1em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 14px;\n    color: #3949ab;\n    top: 0em;\n    left: 5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 11px;\n    top: 2.5em;\n    left: 2em;\n    right: 0.8em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 46%;\n    height: 60px;\n    margin: 3px 3px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 100px;\n    height: 30px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 31em;\n    left: 1.5em; }\n  .softSkillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #ff6d00;\n    top: 56.4em;\n    left: 1.5em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 40px;\n    max-height: 40px;\n    margin-top: 11px;\n    left: 13px; }\n  .skillName {\n    position: absolute;\n    font-size: 12px;\n    left: 60px;\n    top: -3px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 9px;\n    margin-left: 5px;\n    top: -1px; }\n  .skillInfo {\n    position: absolute;\n    font-style: normal;\n    font-size: 7px;\n    top: 20px;\n    left: 60px; }\n  .card {\n    max-width: 95%;\n    height: 300px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 150px; } }\n", ""]);
+	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif;\n  background-image: url(\"/img/bg.png\"); }\n\n.footer-copyright {\n  background-color: #3949ab;\n  color: white;\n  height: 1.5em; }\n\n.footerText {\n  position: relative;\n  margin-bottom: -11px;\n  margin-top: -10px; }\n\nul li {\n  margin-right: 1em; }\n\n.headContainer {\n  height: 40em; }\n\n.aboutContainer {\n  position: relative;\n  height: 37.5em; }\n\n.greetDiv {\n  position: relative; }\n\n.greeting {\n  font-size: 120px;\n  font-family: 'Pacifico', cursive;\n  text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n  position: absolute;\n  top: -0.2em; }\n\n.subgreeting {\n  font-size: 30px;\n  position: absolute;\n  top: 7.5em;\n  left: 1em; }\n\n#githubBtn {\n  position: absolute;\n  top: 22em;\n  right: 32.8em; }\n\n#twitterBtn {\n  position: absolute;\n  top: 22em;\n  right: 23.5em; }\n\n#fccBtn {\n  position: absolute;\n  top: 22em;\n  right: 10.5em; }\n\n#liBtn {\n  position: absolute;\n  top: 22em;\n  right: 1em; }\n\n#githubBottomBtn {\n  position: absolute;\n  top: 27.3em;\n  left: 64.3em; }\n\n#twitterBottomBtn {\n  position: absolute;\n  top: 30.3em;\n  left: 64.3em; }\n\n#fccBottomBtn {\n  position: absolute;\n  top: 33.3em;\n  left: 64.3em; }\n\n#liBottomBtn {\n  position: absolute;\n  top: 36.3em;\n  left: 64.3em; }\n\n#emailBottomBtn {\n  position: absolute;\n  top: 24.3em;\n  left: 64.3em; }\n\n.aboutCard {\n  position: absolute;\n  background-color: #eeeeee;\n  width: 100%;\n  height: 30em;\n  border-radius: 3px; }\n\n.headshot {\n  position: relative;\n  width: 25em;\n  border-width: 0.3em;\n  border-style: solid;\n  border-color: #3949ab;\n  top: 2.5em;\n  left: 2.5em; }\n\n.aboutHeader {\n  position: absolute;\n  font-size: 45px;\n  color: #3949ab;\n  top: 1.2em;\n  left: 10.3em; }\n\n.aboutText {\n  position: absolute;\n  font-size: 25px;\n  top: 5.9em;\n  left: 18.7em;\n  right: 2.5em; }\n\n.skillContainer {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  height: auto;\n  align-items: center;\n  margin-top: 60px; }\n\n.skillCard {\n  flex-basis: auto;\n  position: relative;\n  width: 200px;\n  height: 260px;\n  margin: 5px 5px;\n  background-color: #3949ab;\n  color: white;\n  border-radius: 5px; }\n\n.softSkillCard {\n  flex-basis: auto;\n  position: relative;\n  width: 200px;\n  height: 50px;\n  margin: 5px 5px;\n  background-color: #ff6d00;\n  color: white;\n  border-radius: 5px; }\n\n.skillHeader {\n  font-size: 50px;\n  position: absolute;\n  color: #3949ab;\n  top: 23.5em;\n  left: 5.4em; }\n\n.softSkillHeader {\n  font-size: 30px;\n  position: absolute;\n  color: #ff6d00;\n  top: 69.6em;\n  left: 9em; }\n\n.skillIcon {\n  position: absolute;\n  max-width: 160px;\n  max-height: 160px;\n  margin-top: 20px;\n  right: 20px; }\n\n.skillName {\n  position: absolute;\n  font-size: 25px;\n  margin-left: 15px;\n  top: 175px; }\n\n.softSkillName {\n  position: absolute;\n  font-size: 18px;\n  margin-left: 15px;\n  top: -6px; }\n\n.skillInfo {\n  position: absolute;\n  font-size: 13px;\n  font-style: italic;\n  top: 220px;\n  margin-left: 15px; }\n\n.galleryContainer {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  height: auto;\n  align-items: center;\n  margin-top: 175px; }\n\n.card {\n  max-width: 30%;\n  height: 375px;\n  margin: 10px;\n  background-color: #eeeeee;\n  line-height: normal; }\n\n.galleryThumb {\n  height: 175px; }\n\n.galleryHeader {\n  font-size: 50px;\n  position: absolute;\n  color: #3949ab;\n  top: 48em;\n  left: 5.5em; }\n\n.contactContainer {\n  position: relative;\n  margin-top: 3em;\n  height: 50em; }\n\n.contactGreeting {\n  font-size: 120px;\n  font-family: 'Pacifico', cursive;\n  text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n  position: absolute; }\n\n.contactSubgreeting {\n  font-size: 30px;\n  position: absolute;\n  top: 11em;\n  left: 7em; }\n\n/* High Res Laptop View */\n@media (max-width: 1540px) {\n  .headContainer {\n    height: 35em; }\n  .aboutContainer {\n    position: relative;\n    height: 34em; }\n  .greeting {\n    font-size: 100px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 23px;\n    position: absolute;\n    top: 8.5em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 32.8em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 23.5em; }\n  #fccBtn {\n    position: absolute;\n    top: 19em;\n    right: 10.5em; }\n  #liBtn {\n    position: absolute;\n    top: 19em;\n    right: 1em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 28em;\n    border-radius: 3px; }\n  .headshot {\n    position: relative;\n    width: 15em;\n    border-width: 0.3em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: 5.5em;\n    left: 2.5em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 33px;\n    color: #3949ab;\n    top: 1.3em;\n    left: 8.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 23px;\n    top: 4.6em;\n    left: 12.3em;\n    right: 2em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 60px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 200px;\n    height: 260px;\n    margin: 5px 5px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 200px;\n    height: 50px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 20.9em;\n    left: 5.4em; }\n  .softSkillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #ff6d00;\n    top: 65.3em;\n    left: 9em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 160px;\n    max-height: 160px;\n    margin-top: 20px;\n    right: 20px; }\n  .skillName {\n    position: absolute;\n    font-size: 25px;\n    margin-left: 15px;\n    top: 175px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 18px;\n    margin-left: 15px;\n    top: -6px; }\n  .skillInfo {\n    position: absolute;\n    font-size: 13px;\n    font-style: italic;\n    top: 220px;\n    margin-left: 15px; }\n  .galleryContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 175px; }\n  .card {\n    max-width: 30%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 175px; }\n  .galleryHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 45.5em;\n    left: 5.3em; } }\n\n@media (max-width: 1500px) {\n  #githubBottomBtn {\n    position: absolute;\n    top: 23em;\n    left: 54em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 26em;\n    left: 54em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 29em;\n    left: 54em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 32em;\n    left: 54em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 20em;\n    left: 54em; }\n  .skillHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 20.9em;\n    left: 5.4em; }\n  .softSkillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #ff6d00;\n    top: 74.2em;\n    left: 8.5em; }\n  .galleryHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 52em;\n    left: 5.3em; }\n  .contactContainer {\n    position: relative;\n    margin-top: 3em;\n    height: 40em; }\n  .contactGreeting {\n    font-size: 100px; }\n  .contactSubgreeting {\n    font-size: 25px;\n    position: absolute;\n    top: 11em;\n    left: 7em; } }\n\n/* Large Phone View */\n@media (max-width: 1200px) {\n  #githubBottomBtn {\n    position: absolute;\n    top: 17.5em;\n    left: 43em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 20.5em;\n    left: 43em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 23.5em;\n    left: 43em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 26.5em;\n    left: 43em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 14.5em;\n    left: 43em; }\n  .skillHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 20.2em;\n    left: 4em; }\n  .softSkillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #ff6d00;\n    top: 82.2em;\n    left: 6.7em; }\n  .galleryContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 175px; }\n  .contactContainer {\n    position: relative;\n    margin-top: 3em;\n    height: 36em; }\n  .card {\n    max-width: 45%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 175px; }\n  .galleryHeader {\n    font-size: 50px;\n    position: absolute;\n    color: #3949ab;\n    top: 57.8em;\n    left: 4em; }\n  .contactGreeting {\n    font-size: 65px;\n    left: 2em; }\n  .contactSubgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 9.5em;\n    left: 5.5em; } }\n\n@media (max-width: 1080px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 27em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 11em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 30px;\n    color: #3949ab;\n    top: 1em;\n    left: 6.5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 6em;\n    left: 3em;\n    right: 2em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 130px;\n    height: 190px;\n    margin: 5px 5px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 170px;\n    height: 50px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 23.3em;\n    left: 4.5em; }\n  .softSkillHeader {\n    font-size: 25px;\n    position: absolute;\n    color: #ff6d00;\n    top: 64.4em;\n    left: 7.3em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 90px;\n    max-height: 90px;\n    margin-top: 20px;\n    right: 20px; }\n  .skillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 15px;\n    top: 110px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 9px;\n    top: -2px; }\n  .skillInfo {\n    position: absolute;\n    font-size: 11px;\n    font-style: normal;\n    top: 136px;\n    margin-left: 14px; }\n  .card {\n    max-width: 45%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 175px; }\n  .galleryHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 51.3em;\n    left: 4.5em; } }\n\n@media (max-width: 992px) {\n  #githubBottomBtn {\n    position: absolute;\n    top: 16.5em;\n    left: 22em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 19.5em;\n    left: 17.5em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 19.5em;\n    left: 26.3em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 22.5em;\n    left: 22.5em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 16.5em;\n    left: 14.5em; }\n  .skillHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 22.5em;\n    left: 2.5em; }\n  .softSkillHeader {\n    font-size: 25px;\n    position: absolute;\n    color: #ff6d00;\n    top: 63.1em;\n    left: 3.8em; }\n  .galleryHeader {\n    font-size: 40px;\n    position: absolute;\n    color: #3949ab;\n    top: 49em;\n    left: 2.5em; }\n  .contactGreeting {\n    font-size: 60px;\n    left: 2em; }\n  .contactSubgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 8em;\n    left: 7em; } }\n\n@media (max-width: 822px) {\n  .headContainer {\n    height: 36em; }\n  .aboutContainer {\n    position: relative;\n    height: 27em; }\n  .greeting {\n    font-size: 69px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 20px;\n    position: absolute;\n    top: 7em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 19em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 19em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 22.2em;\n    right: 0em; }\n  #githubBottomBtn {\n    position: absolute;\n    top: 16.5em;\n    left: 18em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 19.5em;\n    left: 13.5em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 19.5em;\n    left: 22.3em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 22.5em;\n    left: 18.5em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 16.5em;\n    left: 10.5em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 23em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 9em;\n    border-width: 0.4em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -3.8em;\n    left: 3em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 23px;\n    color: #3949ab;\n    top: 0.7em;\n    left: 7.3em; }\n  .aboutText {\n    position: absolute;\n    font-size: 17px;\n    top: 4em;\n    left: 3em;\n    right: 2em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 130px;\n    height: 190px;\n    margin: 5px 5px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 170px;\n    height: 50px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 30.7em;\n    left: 2.5em; }\n  .softSkillHeader {\n    font-size: 18px;\n    position: absolute;\n    color: #ff6d00;\n    top: 99.6em;\n    left: 3.8em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 90px;\n    max-height: 90px;\n    margin-top: 20px;\n    right: 20px; }\n  .skillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 15px;\n    top: 110px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 16px;\n    margin-left: 9px;\n    top: -2px; }\n  .skillInfo {\n    position: absolute;\n    font-size: 11px;\n    font-style: normal;\n    top: 136px;\n    margin-left: 14px; }\n  .card {\n    max-width: 45%;\n    height: 375px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 145px; }\n  .galleryHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 74.8em;\n    left: 2.5em; }\n  .contactGreeting {\n    font-size: 55px;\n    left: 1em; }\n  .contactSubgreeting {\n    font-size: 18px;\n    position: absolute;\n    top: 8em;\n    left: 3.5em; } }\n\n/* Small Phone View */\n@media (max-width: 680px) {\n  #githubBottomBtn {\n    position: absolute;\n    top: 14.5em;\n    left: 12em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 17.5em;\n    left: 8.5em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 17.5em;\n    left: 17.3em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 20.5em;\n    left: 13.5em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 14.5em;\n    left: 4.5em; }\n  .skillHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 30.7em;\n    left: 2.5em; }\n  .softSkillHeader {\n    font-size: 18px;\n    position: absolute;\n    color: #ff6d00;\n    top: 110.8em;\n    left: 3.8em; }\n  .galleryHeader {\n    font-size: 30px;\n    position: absolute;\n    color: #3949ab;\n    top: 81.5em;\n    left: 2.5em; }\n  .contactContainer {\n    position: relative;\n    margin-top: 3em;\n    height: 30em; }\n  .contactGreeting {\n    left: 0.8em;\n    font-size: 45px; }\n  .contactSubgreeting {\n    left: 2.5em;\n    font-size: 15px; } }\n\n@media (max-width: 550px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 13em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 18.3em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 18.3em;\n    right: 0em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 12em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 6em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -2.5em;\n    left: 2em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 17px;\n    color: #3949ab;\n    top: 0.3em;\n    left: 7em; }\n  .aboutText {\n    position: absolute;\n    font-size: 13px;\n    top: 3em;\n    left: 2.5em;\n    right: 4em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 85px;\n    height: 120px;\n    margin: 3px 3px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 110px;\n    height: 30px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 33em;\n    left: 1.5em; }\n  .softSkillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #ff6d00;\n    top: 54.2em;\n    left: 1.5em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 70px;\n    max-height: 70px;\n    margin-top: 11px;\n    right: 7px; }\n  .skillName {\n    position: absolute;\n    font-size: 12px;\n    margin-left: 2px;\n    top: 69px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 10px;\n    margin-left: 5px;\n    top: -3px; }\n  .skillInfo {\n    position: absolute;\n    font-style: normal;\n    font-size: 7px;\n    top: 92px;\n    margin-left: 3px; }\n  .galleryContainer {\n    margin-top: 100px; }\n  .card {\n    max-width: 95%;\n    height: 350px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 200px; }\n  .galleryHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 69.3em;\n    left: 1.5em; } }\n\n@media (max-width: 506px) {\n  .skillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 33em;\n    left: 1.5em; }\n  .softSkillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #ff6d00;\n    top: 60.5em;\n    left: 1.5em; }\n  .galleryHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 75.6em;\n    left: 1.5em; } }\n\n@media (max-width: 460px) {\n  .headContainer {\n    height: 30em; }\n  .aboutContainer {\n    position: relative;\n    height: 10.3em; }\n  .greeting {\n    font-size: 53px;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 10px 10px rgba(0, 0, 0, 0.12);\n    position: absolute;\n    top: -0.2em; }\n  .subgreeting {\n    font-size: 15px;\n    position: absolute;\n    top: 8em;\n    left: 1em; }\n  #githubBtn {\n    position: absolute;\n    top: 15em;\n    right: 9em; }\n  #twitterBtn {\n    position: absolute;\n    top: 15em;\n    right: 0em; }\n  #fccBtn {\n    position: absolute;\n    top: 18.5em;\n    right: 9.3em; }\n  #liBtn {\n    position: absolute;\n    top: 18.5em;\n    right: 0em; }\n  #githubBottomBtn {\n    position: absolute;\n    top: 10.5em;\n    left: 8em; }\n  #twitterBottomBtn {\n    position: absolute;\n    top: 16.5em;\n    left: 2.7em; }\n  #fccBottomBtn {\n    position: absolute;\n    top: 13.5em;\n    left: 5.5em; }\n  #liBottomBtn {\n    position: absolute;\n    top: 16.5em;\n    left: 11.5em; }\n  #emailBottomBtn {\n    position: absolute;\n    top: 10.5em;\n    left: 0.5em; }\n  .aboutCard {\n    position: absolute;\n    background-color: #eeeeee;\n    width: 100%;\n    height: 10em;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #e0e0e0; }\n  .headshot {\n    position: relative;\n    width: 4em;\n    border-width: 0.2em;\n    border-style: solid;\n    border-color: #3949ab;\n    top: -1.5em;\n    left: 1em; }\n  .aboutHeader {\n    position: absolute;\n    font-size: 14px;\n    color: #3949ab;\n    top: 0em;\n    left: 5em; }\n  .aboutText {\n    position: absolute;\n    font-size: 11px;\n    top: 2.5em;\n    left: 2em;\n    right: 0.8em; }\n  .skillContainer {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    height: auto;\n    align-items: center;\n    margin-top: 45px; }\n  .skillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 46%;\n    height: 60px;\n    margin: 3px 3px;\n    background-color: #3949ab;\n    color: white;\n    border-radius: 5px; }\n  .softSkillCard {\n    flex-basis: auto;\n    position: relative;\n    width: 100px;\n    height: 30px;\n    margin: 5px 5px;\n    background-color: #ff6d00;\n    color: white;\n    border-radius: 5px; }\n  .skillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #3949ab;\n    top: 31em;\n    left: 1.5em; }\n  .softSkillHeader {\n    font-size: 20px;\n    position: absolute;\n    color: #ff6d00;\n    top: 56.4em;\n    left: 1.5em; }\n  .skillIcon {\n    position: absolute;\n    max-width: 40px;\n    max-height: 40px;\n    margin-top: 11px;\n    left: 13px; }\n  .skillName {\n    position: absolute;\n    font-size: 12px;\n    left: 60px;\n    top: -3px; }\n  .softSkillName {\n    position: absolute;\n    font-size: 9px;\n    margin-left: 5px;\n    top: -1px; }\n  .skillInfo {\n    position: absolute;\n    font-style: normal;\n    font-size: 7px;\n    top: 20px;\n    left: 60px; }\n  .card {\n    max-width: 95%;\n    height: 300px;\n    margin: 10px;\n    background-color: #eeeeee;\n    line-height: normal; }\n  .galleryThumb {\n    height: 150px; }\n  .contactGreeting {\n    left: 0em;\n    font-size: 34px; }\n  .contactSubgreeting {\n    left: 0.8em;\n    font-size: 11px; } }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports) {
 
 	/*
@@ -20807,7 +20874,7 @@
 
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
