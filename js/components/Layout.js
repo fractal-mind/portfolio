@@ -12,14 +12,20 @@ class Layout extends React.Component {
   render(){
     return (
       <div>
+        <header>
         <Navbar />
+        </header>
+        <main>
         <Greeting />
         <Navlink link="aboutme" />
         <About />
         <Portfolio />
         <Navlink link="contact" />
         <Contact />
+        </main>
+        <footer>
         <Footer />
+        </footer>
       </div>
     )
   }

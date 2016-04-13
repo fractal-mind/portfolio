@@ -5,7 +5,7 @@ class About extends React.Component {
     return(
       <div className="container aboutContainer">
         <div className="aboutCard z-depth-2">
-          <img src="/img/headshot.jpg" alt="Will Moody" className="circle headshot"/>
+          <img src="/img/headshot.png" alt="Will Moody" className="circle headshot"/>
           <p className="aboutHeader">
             Will Moody is a Web Developer
           </p>

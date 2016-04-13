@@ -19736,14 +19736,26 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_Navbar2.default, null),
-	        _react2.default.createElement(_Greeting2.default, null),
-	        _react2.default.createElement(_Navlink2.default, { link: 'aboutme' }),
-	        _react2.default.createElement(_About2.default, null),
-	        _react2.default.createElement(_Portfolio2.default, null),
-	        _react2.default.createElement(_Navlink2.default, { link: 'contact' }),
-	        _react2.default.createElement(_Contact2.default, null),
-	        _react2.default.createElement(_Footer2.default, null)
+	        _react2.default.createElement(
+	          'header',
+	          null,
+	          _react2.default.createElement(_Navbar2.default, null)
+	        ),
+	        _react2.default.createElement(
+	          'main',
+	          null,
+	          _react2.default.createElement(_Greeting2.default, null),
+	          _react2.default.createElement(_Navlink2.default, { link: 'aboutme' }),
+	          _react2.default.createElement(_About2.default, null),
+	          _react2.default.createElement(_Portfolio2.default, null),
+	          _react2.default.createElement(_Navlink2.default, { link: 'contact' }),
+	          _react2.default.createElement(_Contact2.default, null)
+	        ),
+	        _react2.default.createElement(
+	          'footer',
+	          null,
+	          _react2.default.createElement(_Footer2.default, null)
+	        )
 	      );
 	    }
 	  }]);
@@ -19795,7 +19807,7 @@
 	        _react2.default.createElement(
 	          "div",
 	          { className: "aboutCard z-depth-2" },
-	          _react2.default.createElement("img", { src: "/img/headshot.jpg", alt: "Will Moody", className: "circle headshot" }),
+	          _react2.default.createElement("img", { src: "/img/headshot.png", alt: "Will Moody", className: "circle headshot" }),
 	          _react2.default.createElement(
 	            "p",
 	            { className: "aboutHeader" },
