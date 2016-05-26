@@ -9,7 +9,7 @@ class Portfolio extends React.Component {
     const skillList = [
       {
         key: 1,
-        name: "Javascript ES6",
+        name: "Javascript",
         icon: <img className="skillIcon" src="../../img/logos/js.jpg" />,
         info: "Language"
       },
@@ -128,7 +128,7 @@ class Portfolio extends React.Component {
       },
       {
         key: 9,
-        name: "Cool Under Pressure"
+        name: "Cool-Headed"
       },
       {
         key: 10,
