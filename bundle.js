@@ -20447,7 +20447,7 @@
 	        key: 12,
 	        name: "Old Portfolio Site",
 	        url: "//codepen.io/fractalmind/full/xwKxwG",
-	        info: "This was the very first webpage I ever made! The assignment was to build a simple portfolio site.",
+	        info: "MY very first FreeCodeCamp project! The assignment was to build a simple portfolio site.",
 	        thumb: "../../img/thumbs/oldportfolio.png"
 	      }];
 
