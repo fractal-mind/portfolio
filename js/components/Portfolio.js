@@ -155,6 +155,13 @@ class Portfolio extends React.Component {
 
     const galleryList = [
       {
+        key: 13,
+        name: "Recipe Box.",
+        url: "//stillwill.net/recipe-box/index.html",
+        info: "Store all your recipes in this helpful app built using React.js and Sass, which utilizes localStorage to save your recipes between sessions.",
+        thumb: "../../img/thumbs/recipe.png"
+      },
+      {
         key: 1,
         name: "Leaderboard",
         url: "//codepen.io/fractalmind/full/dMXOOE",
