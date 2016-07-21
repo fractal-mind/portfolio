@@ -155,6 +155,13 @@ class Portfolio extends React.Component {
 
     const galleryList = [
       {
+        key: 14,
+        name: "Game of Life",
+        url: "//stillwill.net/conway/index.html",
+        info: "An implementation of the classic Conway's Game of Life using React.js and Sass.",
+        thumb: "../../img/thumbs/conway.png"
+      },
+      {
         key: 13,
         name: "Recipe Box.",
         url: "//stillwill.net/recipe-box/index.html",
