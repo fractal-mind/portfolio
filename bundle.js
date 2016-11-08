@@ -19884,7 +19884,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { className: "waves-effect waves-light btn orange accent-4", id: "githubBottomBtn", href: "//github.com/fractal-mind", target: "_blank" },
+	          { className: "waves-effect waves-light btn orange accent-4", id: "githubBottomBtn", href: "//github.com/willmoody", target: "_blank" },
 	          "github"
 	        ),
 	        _react2.default.createElement(
@@ -19894,7 +19894,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { className: "waves-effect waves-light btn orange accent-4", id: "fccBottomBtn", href: "//www.freecodecamp.com/fractal-mind", target: "_blank" },
+	          { className: "waves-effect waves-light btn orange accent-4", id: "fccBottomBtn", href: "//www.freecodecamp.com/willmoody", target: "_blank" },
 	          "freecodecamp"
 	        ),
 	        _react2.default.createElement(
@@ -20027,7 +20027,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { className: "waves-effect waves-light btn orange accent-4", id: "githubBtn", href: "//github.com/fractal-mind", target: "_blank" },
+	            { className: "waves-effect waves-light btn orange accent-4", id: "githubBtn", href: "//github.com/willmoody", target: "_blank" },
 	            "github"
 	          ),
 	          _react2.default.createElement(
